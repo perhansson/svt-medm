@@ -1,0 +1,11052 @@
+
+file {
+	name="/home/tracker/pelle/epics/medm_hps/hps_svt_FELV_all.adl"
+	version=030108
+}
+display {
+	object {
+		x=1352
+		y=160
+		width=1663
+		height=1006
+	}
+	clr=14
+	bclr=12
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+text {
+	object {
+		x=10
+		y=23
+		width=110
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Name"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=129
+		y=23
+		width=50
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Slot"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=208
+		y=23
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Sense"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=278
+		y=23
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Terminal"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=348
+		y=23
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=418
+		y=23
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=483
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="On/Off"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=546
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Status"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=616
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Current"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=686
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Current"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=756
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Current"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=826
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Current"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=896
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Current"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=966
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=129
+		y=39
+		width=50
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Channel"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=686
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=756
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Readback"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=826
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=896
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Readback"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=966
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=11
+		y=8
+		width=110
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Channel"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=129
+		y=8
+		width=50
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Crate"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=208
+		y=8
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Measured"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=278
+		y=8
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Measured"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=348
+		y=8
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=418
+		y=8
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=483
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="LV"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=546
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Channel"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=616
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Measured"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=686
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Max"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=756
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Max"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=826
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Trip"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=896
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Trip"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=966
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Max Sens"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=278
+		y=39
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=208
+		y=39
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=418
+		y=39
+		width=30
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Readback"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1029
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1029
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Readback"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1029
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Max Sens"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1102
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1102
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1102
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Max Term"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1167
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Voltage"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1167
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Readback"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1167
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Max Term"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1243
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Rate"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1243
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1243
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Ramp Up"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1307
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Rate"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1307
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Readback"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1307
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Ramp Up"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1383
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Rate"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1383
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Setpoint"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1383
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Ramp Down"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1450
+		y=23
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Rate"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1450
+		y=39
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Readback"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=1450
+		y=8
+		width=40
+		height=18
+	}
+	"basic attribute" {
+		clr=51
+	}
+	textix="Ramp Down"
+	align="horiz. centered"
+}
+composite {
+	object {
+		x=17
+		y=236
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=237
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 2"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=236
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=236
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=236
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=236
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=236
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=236
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=236
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=236
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=236
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=236
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=236
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=236
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=236
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:2:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=236
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:2:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=263
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 2"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=262
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=262
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=262
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=262
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=262
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=262
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=262
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=262
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=262
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=262
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=262
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=262
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=262
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:2:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=262
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:2:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=289
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 2"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=288
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=288
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=288
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=288
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=288
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=288
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=288
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=288
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=288
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=288
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=288
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:2:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=288
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:2:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=288
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:2:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=288
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:2:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=146
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=147
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 1"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=146
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=146
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=146
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=146
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=146
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=146
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=146
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=146
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=146
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=146
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=146
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=146
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=146
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:1:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=146
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:1:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=173
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 1"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=172
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=172
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=172
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=172
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=172
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=172
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=172
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=172
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=172
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=172
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=172
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=172
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=172
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:1:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=172
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:1:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=199
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 1"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=198
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=198
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=198
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=198
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=198
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=198
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=198
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=198
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=198
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=198
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=198
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:1:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=198
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:1:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=198
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:1:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=198
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:1:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=326
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=327
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 3"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=326
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=326
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=326
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=326
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=326
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=326
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=326
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=326
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=326
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=326
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=326
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=326
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=326
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:3:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=326
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:3:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=353
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 3"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=352
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=352
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=352
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=352
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=352
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=352
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=352
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=352
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=352
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=352
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=352
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=352
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=352
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:3:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=352
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:3:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=379
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 3"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=378
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=378
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=378
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=378
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=378
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=378
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=378
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=378
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=378
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=378
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=378
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:3:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=378
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:3:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=378
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:3:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=378
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:3:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=416
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=417
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 4"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=416
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=416
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=416
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=416
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=416
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=416
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=416
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=416
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=416
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=416
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=416
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=416
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=416
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:4:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=416
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:4:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=443
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 4"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=442
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=442
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=442
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=442
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=442
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=442
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=442
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=442
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=442
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=442
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=442
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=442
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=442
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:4:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=442
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:4:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=469
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 4"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=468
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=468
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=468
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=468
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=468
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=468
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=468
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=468
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=468
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=468
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=468
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:4:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=468
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:4:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=468
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:4:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=468
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:4:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=506
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=507
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 5"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=506
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=506
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=506
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=506
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=506
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=506
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=506
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=506
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=506
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=506
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=506
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=506
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=506
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:5:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=506
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:5:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=533
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 5"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=532
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=532
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=532
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=532
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=532
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=532
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=532
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=532
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=532
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=532
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=532
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=532
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=532
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:5:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=532
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:5:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=559
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 5"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=558
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=558
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=558
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=558
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=558
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=558
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=558
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=558
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=558
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=558
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=558
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:5:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=558
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:5:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=558
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:5:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=558
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:5:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=596
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=597
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 6"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=596
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=596
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=596
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=596
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=596
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=596
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=596
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=596
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=596
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=596
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=596
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=596
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=596
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:6:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=596
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:6:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=623
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 6"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=622
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=622
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=622
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=622
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=622
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=622
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=622
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=622
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=622
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=622
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=622
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=622
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=622
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:6:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=622
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:6:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=649
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 6"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=648
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=648
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=648
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=648
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=648
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=648
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=648
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=648
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=648
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=648
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=648
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:6:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=648
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:6:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=648
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:6:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=648
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:6:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=686
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=687
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 7"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=686
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=686
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=686
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=686
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=686
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=686
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=686
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=686
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=686
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=686
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=686
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=686
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=686
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:7:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=686
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:7:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=713
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 7"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=712
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=712
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=712
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=712
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=712
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=712
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=712
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=712
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=712
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=712
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=712
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=712
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=712
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:7:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=712
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:7:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=739
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 7"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=738
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=738
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=738
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=738
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=738
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=738
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=738
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=738
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=738
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=738
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=738
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:7:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=738
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:7:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=738
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:7:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=738
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:7:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=776
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=777
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 8"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=776
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=776
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=776
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=776
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=776
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=776
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=776
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=776
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=776
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=776
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=776
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=776
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=776
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:8:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=776
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:8:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=803
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 8"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=802
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=802
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=802
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=802
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=802
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=802
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=802
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=802
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=802
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=802
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=802
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=802
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=802
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:8:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=802
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:8:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=829
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 8"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=828
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=828
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=828
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=828
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=828
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=828
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=828
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=828
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=828
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=828
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=828
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:8:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=828
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:8:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=828
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:8:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=828
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:8:digi:stat"
+			}
+		}
+	}
+}
+composite {
+	object {
+		x=17
+		y=866
+		width=1473
+		height=73
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=17
+				y=867
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAN 9"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=866
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=866
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=866
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=866
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=866
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=866
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=866
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=866
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=866
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=866
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=866
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anan:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=866
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anan:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=866
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:9:anan:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=866
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:9:anan:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=893
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE ANAP 9"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=892
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=892
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=892
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=892
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=892
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=892
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=892
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=892
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=892
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=892
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=892
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:anap:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=892
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:anap:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=892
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:9:anap:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=892
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:9:anap:stat"
+			}
+		}
+		text {
+			object {
+				x=17
+				y=919
+				width=100
+				height=20
+			}
+			"basic attribute" {
+				clr=31
+			}
+			textix="SVT FE DIGI 9"
+			align="horiz. centered"
+		}
+		"text update" {
+			object {
+				x=198
+				y=918
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:v_sens"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=129
+				y=918
+				width=50
+				height=20
+			}
+			monitor {
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=268
+				y=918
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:v_term"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=338
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:v_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=408
+				y=918
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:v_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=681
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:i_set"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=821
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:i_max_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=961
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:v_max_sens_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"choice button" {
+			object {
+				x=478
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:switch"
+				clr=55
+				bclr=12
+			}
+			stacking="column"
+		}
+		"text update" {
+			object {
+				x=611
+				y=918
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:i_rd"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=751
+				y=918
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:i_set:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=891
+				y=918
+				width=50
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:i_max_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1029
+				y=918
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:v_max_sens_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1097
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:v_max_term_sup"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1167
+				y=918
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:v_max_term_sup:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1238
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:vrise"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1307
+				y=918
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:vrise:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		"text entry" {
+			object {
+				x=1378
+				y=918
+				width=50
+				height=20
+			}
+			control {
+				chan="SVT:lv:fe:9:digi:vfall"
+				clr=14
+				bclr=0
+			}
+			limits {
+			}
+		}
+		"text update" {
+			object {
+				x=1450
+				y=918
+				width=40
+				height=20
+			}
+			monitor {
+				chan="SVT:lv:fe:9:digi:vfall:fbk"
+				clr=31
+				bclr=14
+			}
+			align="horiz. centered"
+			limits {
+			}
+		}
+		rectangle {
+			object {
+				x=557
+				y=918
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="SVT:lv:fe:9:digi:stat"
+			}
+		}
+		rectangle {
+			object {
+				x=556
+				y=918
+				width=20
+				height=20
+			}
+			"basic attribute" {
+				clr=15
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="SVT:lv:fe:9:digi:stat"
+			}
+		}
+	}
+}
+text {
+	object {
+		x=17
+		y=57
+		width=100
+		height=20
+	}
+	"basic attribute" {
+		clr=31
+	}
+	textix="SVT FE ANAN 0"
+	align="horiz. centered"
+}
+"text update" {
+	object {
+		x=198
+		y=56
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:v_sens"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=56
+		width=50
+		height=20
+	}
+	monitor {
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=268
+		y=56
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:v_term"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=338
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:v_set"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=408
+		y=56
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:v_set:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=681
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:i_set"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=821
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:i_max_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=961
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:v_max_sens_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=478
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:switch"
+		clr=55
+		bclr=12
+	}
+	stacking="column"
+}
+"text update" {
+	object {
+		x=611
+		y=56
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:i_rd"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=751
+		y=56
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:i_set:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=891
+		y=56
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:i_max_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1029
+		y=56
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:v_max_sens_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1097
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:v_max_term_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1167
+		y=56
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:v_max_term_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1238
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:vrise"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1307
+		y=56
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:vrise:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1378
+		y=56
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anan:vfall"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1450
+		y=56
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anan:vfall:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=557
+		y=56
+		width=20
+		height=20
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="SVT:lv:fe:0:anan:stat"
+	}
+}
+rectangle {
+	object {
+		x=556
+		y=56
+		width=20
+		height=20
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="SVT:lv:fe:0:anan:stat"
+	}
+}
+text {
+	object {
+		x=17
+		y=83
+		width=100
+		height=20
+	}
+	"basic attribute" {
+		clr=31
+	}
+	textix="SVT FE ANAP 0"
+	align="horiz. centered"
+}
+"text update" {
+	object {
+		x=198
+		y=82
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:v_sens"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=82
+		width=50
+		height=20
+	}
+	monitor {
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=268
+		y=82
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:v_term"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=338
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:v_set"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=408
+		y=82
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:v_set:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=681
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:i_set"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=821
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:i_max_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=961
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:v_max_sens_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=478
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:switch"
+		clr=55
+		bclr=12
+	}
+	stacking="column"
+}
+"text update" {
+	object {
+		x=611
+		y=82
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:i_rd"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=751
+		y=82
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:i_set:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=891
+		y=82
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:i_max_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1029
+		y=82
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:v_max_sens_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1097
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:v_max_term_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1167
+		y=82
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:v_max_term_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1238
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:vrise"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1307
+		y=82
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:vrise:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1378
+		y=82
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:anap:vfall"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1450
+		y=82
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:anap:vfall:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=557
+		y=82
+		width=20
+		height=20
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="SVT:lv:fe:0:anap:stat"
+	}
+}
+rectangle {
+	object {
+		x=556
+		y=82
+		width=20
+		height=20
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="SVT:lv:fe:0:anap:stat"
+	}
+}
+text {
+	object {
+		x=17
+		y=109
+		width=100
+		height=20
+	}
+	"basic attribute" {
+		clr=31
+	}
+	textix="SVT FE DIGI 0"
+	align="horiz. centered"
+}
+"text update" {
+	object {
+		x=198
+		y=108
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:v_sens"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=129
+		y=108
+		width=50
+		height=20
+	}
+	monitor {
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=268
+		y=108
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:v_term"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=338
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:v_set"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=408
+		y=108
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:v_set:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=681
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:i_set"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=821
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:i_max_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=961
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:v_max_sens_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"choice button" {
+	object {
+		x=478
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:switch"
+		clr=55
+		bclr=12
+	}
+	stacking="column"
+}
+"text update" {
+	object {
+		x=611
+		y=108
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:i_rd"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=751
+		y=108
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:i_set:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=891
+		y=108
+		width=50
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:i_max_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1029
+		y=108
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:v_max_sens_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1097
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:v_max_term_sup"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1167
+		y=108
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:v_max_term_sup:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1238
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:vrise"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1307
+		y=108
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:vrise:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+"text entry" {
+	object {
+		x=1378
+		y=108
+		width=50
+		height=20
+	}
+	control {
+		chan="SVT:lv:fe:0:digi:vfall"
+		clr=14
+		bclr=0
+	}
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=1450
+		y=108
+		width=40
+		height=20
+	}
+	monitor {
+		chan="SVT:lv:fe:0:digi:vfall:fbk"
+		clr=31
+		bclr=14
+	}
+	align="horiz. centered"
+	limits {
+	}
+}
+rectangle {
+	object {
+		x=557
+		y=108
+		width=20
+		height=20
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		vis="if zero"
+		chan="SVT:lv:fe:0:digi:stat"
+	}
+}
+rectangle {
+	object {
+		x=556
+		y=108
+		width=20
+		height=20
+	}
+	"basic attribute" {
+		clr=15
+	}
+	"dynamic attribute" {
+		vis="if not zero"
+		chan="SVT:lv:fe:0:digi:stat"
+	}
+}
