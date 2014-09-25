@@ -18,6 +18,7 @@ else
     medm $cmd svtTempSensors.adl &
     medm $cmd svtStatusPS_latest_onoff_control.adl &    
     medm $cmd hps_svt_FELV_all.adl &
+    medm $cmd hps_svt_FLLV_all.adl &
     medm $cmd hps_svt_bias_all_onoff_control.adl &
     echo "Done"
 endif
