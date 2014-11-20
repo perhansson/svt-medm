@@ -108,7 +108,7 @@ text {
 		height=20
 	}
 	control {
-		chan="SVT:lv:hyb:bot:2:all:switch"
+		chan="SVT:lv:hyb:top:0:all:switch"
 		clr=55
 		bclr=12
 	}
@@ -382,7 +382,7 @@ text {
 		height=20
 	}
 	control {
-		chan="SVT:lv:hyb:bot:2:dvdd:v_set"
+		chan="SVT:lv:hyb:top:0:dvdd:v_set"
 		clr=14
 		bclr=0
 	}
@@ -397,7 +397,7 @@ text {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:dvdd:v_set_rd"
+		chan="SVT:lv:hyb:top:0:dvdd:v_set_rd"
 		clr=31
 		bclr=14
 	}
@@ -413,7 +413,7 @@ text {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:dvdd:vn"
+		chan="SVT:lv:hyb:top:0:dvdd:vn"
 		clr=31
 		bclr=14
 	}
@@ -429,7 +429,7 @@ text {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:dvdd:vf"
+		chan="SVT:lv:hyb:top:0:dvdd:vf"
 		clr=31
 		bclr=14
 	}
@@ -445,7 +445,7 @@ text {
 		height=20
 	}
 	control {
-		chan="SVT:lv:hyb:bot:2:dvdd:switch"
+		chan="SVT:lv:hyb:top:0:dvdd:switch"
 		clr=55
 		bclr=12
 	}
@@ -463,7 +463,7 @@ rectangle {
 	}
 	"dynamic attribute" {
 		vis="if zero"
-		chan="SVT:lv:hyb:bot:2:dvdd:stat"
+		chan="SVT:lv:hyb:top:0:dvdd:stat"
 	}
 }
 rectangle {
@@ -478,7 +478,7 @@ rectangle {
 	}
 	"dynamic attribute" {
 		vis="if not zero"
-		chan="SVT:lv:hyb:bot:2:dvdd:stat"
+		chan="SVT:lv:hyb:top:0:dvdd:stat"
 	}
 }
 "text update" {
@@ -489,7 +489,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:dvdd:i_rd"
+		chan="SVT:lv:hyb:top:0:dvdd:i_rd"
 		clr=31
 		bclr=14
 	}
@@ -505,7 +505,7 @@ rectangle {
 		height=20
 	}
 	control {
-		chan="SVT:lv:hyb:bot:2:avdd:v_set"
+		chan="SVT:lv:hyb:top:0:avdd:v_set"
 		clr=14
 		bclr=0
 	}
@@ -520,7 +520,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:avdd:v_set_rd"
+		chan="SVT:lv:hyb:top:0:avdd:v_set_rd"
 		clr=30
 		bclr=14
 	}
@@ -535,7 +535,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:avdd:vn"
+		chan="SVT:lv:hyb:top:0:avdd:vn"
 		clr=31
 		bclr=14
 	}
@@ -551,7 +551,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:avdd:vf"
+		chan="SVT:lv:hyb:top:0:avdd:vf"
 		clr=31
 		bclr=14
 	}
@@ -567,7 +567,7 @@ rectangle {
 		height=20
 	}
 	control {
-		chan="SVT:lv:hyb:bot:2:avdd:switch"
+		chan="SVT:lv:hyb:top:0:avdd:switch"
 		clr=55
 		bclr=12
 	}
@@ -585,7 +585,7 @@ rectangle {
 	}
 	"dynamic attribute" {
 		vis="if zero"
-		chan="SVT:lv:hyb:bot:2:avdd:stat"
+		chan="SVT:lv:hyb:top:0:avdd:stat"
 	}
 }
 rectangle {
@@ -600,7 +600,7 @@ rectangle {
 	}
 	"dynamic attribute" {
 		vis="if not zero"
-		chan="SVT:lv:hyb:bot:2:avdd:stat"
+		chan="SVT:lv:hyb:top:0:avdd:stat"
 	}
 }
 "text update" {
@@ -611,7 +611,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:avdd:i_rd"
+		chan="SVT:lv:hyb:top:0:avdd:i_rd"
 		clr=31
 		bclr=14
 	}
@@ -627,7 +627,7 @@ rectangle {
 		height=20
 	}
 	control {
-		chan="SVT:lv:hyb:bot:2:v125:v_set"
+		chan="SVT:lv:hyb:top:0:v125:v_set"
 		clr=14
 		bclr=0
 	}
@@ -642,7 +642,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:v125:v_set_rd"
+		chan="SVT:lv:hyb:top:0:v125:v_set_rd"
 		clr=30
 		bclr=14
 	}
@@ -657,7 +657,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:v125:vn"
+		chan="SVT:lv:hyb:top:0:v125:vn"
 		clr=31
 		bclr=14
 	}
@@ -673,7 +673,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:v125:vf"
+		chan="SVT:lv:hyb:top:0:v125:vf"
 		clr=31
 		bclr=14
 	}
@@ -689,7 +689,7 @@ rectangle {
 		height=20
 	}
 	control {
-		chan="SVT:lv:hyb:bot:2:v125:switch"
+		chan="SVT:lv:hyb:top:0:v125:switch"
 		clr=55
 		bclr=12
 	}
@@ -707,7 +707,7 @@ rectangle {
 	}
 	"dynamic attribute" {
 		vis="if zero"
-		chan="SVT:lv:hyb:bot:2:v125:stat"
+		chan="SVT:lv:hyb:top:0:v125:stat"
 	}
 }
 rectangle {
@@ -722,7 +722,7 @@ rectangle {
 	}
 	"dynamic attribute" {
 		vis="if not zero"
-		chan="SVT:lv:hyb:bot:2:v125:stat"
+		chan="SVT:lv:hyb:top:0:v125:stat"
 	}
 }
 "text update" {
@@ -733,7 +733,7 @@ rectangle {
 		height=20
 	}
 	monitor {
-		chan="SVT:lv:hyb:bot:2:v125:i_rd"
+		chan="SVT:lv:hyb:top:0:v125:i_rd"
 		clr=31
 		bclr=14
 	}
