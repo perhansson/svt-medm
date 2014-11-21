@@ -5308,3 +5308,31 @@ text {
 	textix="SVT BIAS ALL V_SET"
 	align="horiz. centered"
 }
+text {
+	object {
+		x=1274
+		y=293
+		width=93
+		height=29
+	}
+	"basic attribute" {
+		clr=50
+	}
+	textix="Temperature Monitoring"
+	align="horiz. centered"
+}
+"related display" {
+	object {
+		x=1240
+		y=319
+		width=170
+		height=22
+	}
+	display[0] {
+		label="GGG"
+		name="svtTempSensors.adl"
+	}
+	clr=0
+	bclr=24
+	label="Temperature Monitoring"
+}
