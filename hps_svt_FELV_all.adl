@@ -1,14 +1,14 @@
 
 file {
-	name="/home/tracker/pelle/epics/medm_hps/hps_svt_FELV_all.adl"
+	name="/home/tracker/pelle/epics/svt-medm/hps_svt_FELV_all.adl"
 	version=030108
 }
 display {
 	object {
-		x=1352
-		y=160
-		width=1663
-		height=1006
+		x=1618
+		y=47
+		width=1500
+		height=1022
 	}
 	clr=14
 	bclr=12
@@ -89,9 +89,9 @@ display {
 }
 text {
 	object {
-		x=10
+		x=9
 		y=23
-		width=110
+		width=89
 		height=18
 	}
 	"basic attribute" {
@@ -102,9 +102,9 @@ text {
 }
 text {
 	object {
-		x=129
+		x=103
 		y=23
-		width=50
+		width=41
 		height=18
 	}
 	"basic attribute" {
@@ -115,9 +115,9 @@ text {
 }
 text {
 	object {
-		x=208
+		x=166
 		y=23
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -128,9 +128,9 @@ text {
 }
 text {
 	object {
-		x=278
+		x=224
 		y=23
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -141,9 +141,9 @@ text {
 }
 text {
 	object {
-		x=348
+		x=279
 		y=23
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -154,9 +154,9 @@ text {
 }
 text {
 	object {
-		x=418
+		x=333
 		y=23
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -167,9 +167,9 @@ text {
 }
 text {
 	object {
-		x=483
+		x=385
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -180,9 +180,9 @@ text {
 }
 text {
 	object {
-		x=546
+		x=435
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -193,9 +193,9 @@ text {
 }
 text {
 	object {
-		x=616
+		x=492
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -206,9 +206,9 @@ text {
 }
 text {
 	object {
-		x=686
+		x=547
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -219,9 +219,9 @@ text {
 }
 text {
 	object {
-		x=756
+		x=604
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -232,9 +232,9 @@ text {
 }
 text {
 	object {
-		x=826
+		x=661
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -245,9 +245,9 @@ text {
 }
 text {
 	object {
-		x=896
+		x=716
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -258,9 +258,9 @@ text {
 }
 text {
 	object {
-		x=966
+		x=766
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -271,9 +271,9 @@ text {
 }
 text {
 	object {
-		x=129
-		y=39
-		width=50
+		x=103
+		y=38
+		width=41
 		height=18
 	}
 	"basic attribute" {
@@ -284,9 +284,9 @@ text {
 }
 text {
 	object {
-		x=686
-		y=39
-		width=40
+		x=547
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -297,9 +297,9 @@ text {
 }
 text {
 	object {
-		x=756
-		y=39
-		width=40
+		x=604
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -310,9 +310,9 @@ text {
 }
 text {
 	object {
-		x=826
-		y=39
-		width=40
+		x=661
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -323,9 +323,9 @@ text {
 }
 text {
 	object {
-		x=896
-		y=39
-		width=40
+		x=716
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -336,9 +336,9 @@ text {
 }
 text {
 	object {
-		x=966
-		y=39
-		width=40
+		x=766
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -349,9 +349,9 @@ text {
 }
 text {
 	object {
-		x=11
+		x=10
 		y=8
-		width=110
+		width=89
 		height=18
 	}
 	"basic attribute" {
@@ -362,9 +362,9 @@ text {
 }
 text {
 	object {
-		x=129
+		x=103
 		y=8
-		width=50
+		width=41
 		height=18
 	}
 	"basic attribute" {
@@ -375,9 +375,9 @@ text {
 }
 text {
 	object {
-		x=208
+		x=166
 		y=8
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -388,9 +388,9 @@ text {
 }
 text {
 	object {
-		x=278
+		x=224
 		y=8
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -401,9 +401,9 @@ text {
 }
 text {
 	object {
-		x=348
+		x=279
 		y=8
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -414,9 +414,9 @@ text {
 }
 text {
 	object {
-		x=418
+		x=333
 		y=8
-		width=30
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -427,9 +427,9 @@ text {
 }
 text {
 	object {
-		x=483
+		x=385
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -440,9 +440,9 @@ text {
 }
 text {
 	object {
-		x=546
+		x=435
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -453,9 +453,9 @@ text {
 }
 text {
 	object {
-		x=616
+		x=492
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -466,9 +466,9 @@ text {
 }
 text {
 	object {
-		x=686
+		x=547
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -479,9 +479,9 @@ text {
 }
 text {
 	object {
-		x=756
+		x=604
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -492,9 +492,9 @@ text {
 }
 text {
 	object {
-		x=826
+		x=661
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -505,9 +505,9 @@ text {
 }
 text {
 	object {
-		x=896
+		x=716
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -518,9 +518,9 @@ text {
 }
 text {
 	object {
-		x=966
+		x=766
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -531,9 +531,9 @@ text {
 }
 text {
 	object {
-		x=278
-		y=39
-		width=30
+		x=224
+		y=38
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -544,9 +544,9 @@ text {
 }
 text {
 	object {
-		x=208
-		y=39
-		width=30
+		x=166
+		y=38
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -557,9 +557,9 @@ text {
 }
 text {
 	object {
-		x=418
-		y=39
-		width=30
+		x=333
+		y=38
+		width=26
 		height=18
 	}
 	"basic attribute" {
@@ -570,9 +570,9 @@ text {
 }
 text {
 	object {
-		x=1029
+		x=818
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -583,9 +583,9 @@ text {
 }
 text {
 	object {
-		x=1029
-		y=39
-		width=40
+		x=818
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -596,9 +596,9 @@ text {
 }
 text {
 	object {
-		x=1029
+		x=818
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -609,9 +609,9 @@ text {
 }
 text {
 	object {
-		x=1102
+		x=876
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -622,9 +622,9 @@ text {
 }
 text {
 	object {
-		x=1102
-		y=39
-		width=40
+		x=876
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -635,9 +635,9 @@ text {
 }
 text {
 	object {
-		x=1102
+		x=876
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -648,9 +648,9 @@ text {
 }
 text {
 	object {
-		x=1167
+		x=930
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -661,9 +661,9 @@ text {
 }
 text {
 	object {
-		x=1167
-		y=39
-		width=40
+		x=930
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -674,9 +674,9 @@ text {
 }
 text {
 	object {
-		x=1167
+		x=930
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -687,9 +687,9 @@ text {
 }
 text {
 	object {
-		x=1243
+		x=990
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -700,9 +700,9 @@ text {
 }
 text {
 	object {
-		x=1243
-		y=39
-		width=40
+		x=990
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -713,9 +713,9 @@ text {
 }
 text {
 	object {
-		x=1243
+		x=990
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -726,9 +726,9 @@ text {
 }
 text {
 	object {
-		x=1307
+		x=1042
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -739,9 +739,9 @@ text {
 }
 text {
 	object {
-		x=1307
-		y=39
-		width=40
+		x=1042
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -752,9 +752,9 @@ text {
 }
 text {
 	object {
-		x=1307
+		x=1042
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -765,9 +765,9 @@ text {
 }
 text {
 	object {
-		x=1383
+		x=1103
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -778,9 +778,9 @@ text {
 }
 text {
 	object {
-		x=1383
-		y=39
-		width=40
+		x=1103
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -791,9 +791,9 @@ text {
 }
 text {
 	object {
-		x=1383
+		x=1103
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -804,9 +804,9 @@ text {
 }
 text {
 	object {
-		x=1450
+		x=1157
 		y=23
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -817,9 +817,9 @@ text {
 }
 text {
 	object {
-		x=1450
-		y=39
-		width=40
+		x=1157
+		y=38
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -830,9 +830,9 @@ text {
 }
 text {
 	object {
-		x=1450
+		x=1157
 		y=8
-		width=40
+		width=33
 		height=18
 	}
 	"basic attribute" {
@@ -843,18 +843,18 @@ text {
 }
 composite {
 	object {
-		x=17
-		y=236
-		width=1473
-		height=73
+		x=15
+		y=230
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=237
-				width=100
+				x=15
+				y=231
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -865,9 +865,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=236
-				width=50
+				x=159
+				y=230
+				width=41
 				height=20
 			}
 			monitor {
@@ -881,9 +881,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=236
-				width=50
+				x=106
+				y=230
+				width=41
 				height=20
 			}
 			monitor {
@@ -896,9 +896,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=236
-				width=50
+				x=216
+				y=230
+				width=41
 				height=20
 			}
 			monitor {
@@ -912,9 +912,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=236
-				width=50
+				x=272
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -927,9 +927,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=236
-				width=50
+				x=328
+				y=230
+				width=41
 				height=20
 			}
 			monitor {
@@ -943,9 +943,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=236
-				width=50
+				x=545
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -958,9 +958,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=236
-				width=50
+				x=656
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -973,9 +973,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=236
-				width=50
+				x=768
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -988,9 +988,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=236
-				width=50
+				x=381
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -1002,9 +1002,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=236
-				width=50
+				x=490
+				y=230
+				width=41
 				height=20
 			}
 			monitor {
@@ -1018,9 +1018,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=236
-				width=50
+				x=603
+				y=230
+				width=41
 				height=20
 			}
 			monitor {
@@ -1034,9 +1034,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=236
-				width=50
+				x=710
+				y=230
+				width=41
 				height=20
 			}
 			monitor {
@@ -1050,9 +1050,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=236
-				width=40
+				x=824
+				y=230
+				width=33
 				height=20
 			}
 			monitor {
@@ -1066,9 +1066,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=236
-				width=50
+				x=876
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -1081,9 +1081,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=236
-				width=40
+				x=931
+				y=230
+				width=33
 				height=20
 			}
 			monitor {
@@ -1097,9 +1097,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=236
-				width=50
+				x=988
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -1112,9 +1112,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=236
-				width=40
+				x=1044
+				y=230
+				width=33
 				height=20
 			}
 			monitor {
@@ -1128,9 +1128,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=236
-				width=50
+				x=1099
+				y=230
+				width=41
 				height=20
 			}
 			control {
@@ -1143,9 +1143,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=236
-				width=40
+				x=1157
+				y=230
+				width=33
 				height=20
 			}
 			monitor {
@@ -1159,9 +1159,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=236
-				width=20
+				x=445
+				y=230
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -1174,9 +1174,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=236
-				width=20
+				x=444
+				y=230
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -1189,9 +1189,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=263
-				width=100
+				x=15
+				y=257
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -1202,9 +1202,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=262
-				width=50
+				x=159
+				y=256
+				width=41
 				height=20
 			}
 			monitor {
@@ -1218,9 +1218,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=262
-				width=50
+				x=106
+				y=256
+				width=41
 				height=20
 			}
 			monitor {
@@ -1233,9 +1233,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=262
-				width=50
+				x=216
+				y=256
+				width=41
 				height=20
 			}
 			monitor {
@@ -1249,9 +1249,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=262
-				width=50
+				x=272
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1264,9 +1264,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=262
-				width=50
+				x=328
+				y=256
+				width=41
 				height=20
 			}
 			monitor {
@@ -1280,9 +1280,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=262
-				width=50
+				x=545
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1295,9 +1295,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=262
-				width=50
+				x=656
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1310,9 +1310,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=262
-				width=50
+				x=768
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1325,9 +1325,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=262
-				width=50
+				x=381
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1339,9 +1339,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=262
-				width=50
+				x=490
+				y=256
+				width=41
 				height=20
 			}
 			monitor {
@@ -1355,9 +1355,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=262
-				width=50
+				x=603
+				y=256
+				width=41
 				height=20
 			}
 			monitor {
@@ -1371,9 +1371,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=262
-				width=50
+				x=710
+				y=256
+				width=41
 				height=20
 			}
 			monitor {
@@ -1387,9 +1387,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=262
-				width=40
+				x=824
+				y=256
+				width=33
 				height=20
 			}
 			monitor {
@@ -1403,9 +1403,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=262
-				width=50
+				x=876
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1418,9 +1418,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=262
-				width=40
+				x=931
+				y=256
+				width=33
 				height=20
 			}
 			monitor {
@@ -1434,9 +1434,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=262
-				width=50
+				x=988
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1449,9 +1449,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=262
-				width=40
+				x=1044
+				y=256
+				width=33
 				height=20
 			}
 			monitor {
@@ -1465,9 +1465,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=262
-				width=50
+				x=1099
+				y=256
+				width=41
 				height=20
 			}
 			control {
@@ -1480,9 +1480,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=262
-				width=40
+				x=1157
+				y=256
+				width=33
 				height=20
 			}
 			monitor {
@@ -1496,9 +1496,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=262
-				width=20
+				x=445
+				y=256
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -1511,9 +1511,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=262
-				width=20
+				x=444
+				y=256
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -1526,9 +1526,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=289
-				width=100
+				x=15
+				y=282
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -1539,9 +1539,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=288
-				width=50
+				x=159
+				y=281
+				width=41
 				height=20
 			}
 			monitor {
@@ -1555,9 +1555,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=288
-				width=50
+				x=106
+				y=281
+				width=41
 				height=20
 			}
 			monitor {
@@ -1570,9 +1570,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=288
-				width=50
+				x=216
+				y=281
+				width=41
 				height=20
 			}
 			monitor {
@@ -1586,9 +1586,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=288
-				width=50
+				x=272
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1601,9 +1601,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=288
-				width=50
+				x=328
+				y=281
+				width=41
 				height=20
 			}
 			monitor {
@@ -1617,9 +1617,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=288
-				width=50
+				x=545
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1632,9 +1632,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=288
-				width=50
+				x=656
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1647,9 +1647,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=288
-				width=50
+				x=768
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1662,9 +1662,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=288
-				width=50
+				x=381
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1676,9 +1676,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=288
-				width=50
+				x=490
+				y=281
+				width=41
 				height=20
 			}
 			monitor {
@@ -1692,9 +1692,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=288
-				width=50
+				x=603
+				y=281
+				width=41
 				height=20
 			}
 			monitor {
@@ -1708,9 +1708,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=288
-				width=50
+				x=710
+				y=281
+				width=41
 				height=20
 			}
 			monitor {
@@ -1724,9 +1724,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=288
-				width=40
+				x=824
+				y=281
+				width=33
 				height=20
 			}
 			monitor {
@@ -1740,9 +1740,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=288
-				width=50
+				x=876
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1755,9 +1755,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=288
-				width=40
+				x=931
+				y=281
+				width=33
 				height=20
 			}
 			monitor {
@@ -1771,9 +1771,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=288
-				width=50
+				x=988
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1786,9 +1786,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=288
-				width=40
+				x=1044
+				y=281
+				width=33
 				height=20
 			}
 			monitor {
@@ -1802,9 +1802,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=288
-				width=50
+				x=1099
+				y=281
+				width=41
 				height=20
 			}
 			control {
@@ -1817,9 +1817,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=288
-				width=40
+				x=1157
+				y=281
+				width=33
 				height=20
 			}
 			monitor {
@@ -1833,9 +1833,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=288
-				width=20
+				x=445
+				y=281
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -1848,9 +1848,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=288
-				width=20
+				x=444
+				y=281
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -1865,18 +1865,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=146
-		width=1473
-		height=73
+		x=15
+		y=143
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=147
-				width=100
+				x=15
+				y=144
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -1887,9 +1887,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=146
-				width=50
+				x=159
+				y=143
+				width=41
 				height=20
 			}
 			monitor {
@@ -1903,9 +1903,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=146
-				width=50
+				x=106
+				y=143
+				width=41
 				height=20
 			}
 			monitor {
@@ -1918,9 +1918,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=146
-				width=50
+				x=216
+				y=143
+				width=41
 				height=20
 			}
 			monitor {
@@ -1934,9 +1934,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=146
-				width=50
+				x=272
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -1949,9 +1949,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=146
-				width=50
+				x=328
+				y=143
+				width=41
 				height=20
 			}
 			monitor {
@@ -1965,9 +1965,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=146
-				width=50
+				x=545
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -1980,9 +1980,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=146
-				width=50
+				x=656
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -1995,9 +1995,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=146
-				width=50
+				x=768
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -2010,9 +2010,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=146
-				width=50
+				x=381
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -2024,9 +2024,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=146
-				width=50
+				x=490
+				y=143
+				width=41
 				height=20
 			}
 			monitor {
@@ -2040,9 +2040,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=146
-				width=50
+				x=603
+				y=143
+				width=41
 				height=20
 			}
 			monitor {
@@ -2056,9 +2056,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=146
-				width=50
+				x=710
+				y=143
+				width=41
 				height=20
 			}
 			monitor {
@@ -2072,9 +2072,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=146
-				width=40
+				x=824
+				y=143
+				width=33
 				height=20
 			}
 			monitor {
@@ -2088,9 +2088,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=146
-				width=50
+				x=876
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -2103,9 +2103,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=146
-				width=40
+				x=931
+				y=143
+				width=33
 				height=20
 			}
 			monitor {
@@ -2119,9 +2119,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=146
-				width=50
+				x=988
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -2134,9 +2134,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=146
-				width=40
+				x=1044
+				y=143
+				width=33
 				height=20
 			}
 			monitor {
@@ -2150,9 +2150,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=146
-				width=50
+				x=1099
+				y=143
+				width=41
 				height=20
 			}
 			control {
@@ -2165,9 +2165,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=146
-				width=40
+				x=1157
+				y=143
+				width=33
 				height=20
 			}
 			monitor {
@@ -2181,9 +2181,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=146
-				width=20
+				x=445
+				y=143
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -2196,9 +2196,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=146
-				width=20
+				x=444
+				y=143
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -2211,9 +2211,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=173
-				width=100
+				x=15
+				y=170
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -2224,9 +2224,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=172
-				width=50
+				x=159
+				y=169
+				width=41
 				height=20
 			}
 			monitor {
@@ -2240,9 +2240,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=172
-				width=50
+				x=106
+				y=169
+				width=41
 				height=20
 			}
 			monitor {
@@ -2255,9 +2255,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=172
-				width=50
+				x=216
+				y=169
+				width=41
 				height=20
 			}
 			monitor {
@@ -2271,9 +2271,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=172
-				width=50
+				x=272
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2286,9 +2286,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=172
-				width=50
+				x=328
+				y=169
+				width=41
 				height=20
 			}
 			monitor {
@@ -2302,9 +2302,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=172
-				width=50
+				x=545
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2317,9 +2317,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=172
-				width=50
+				x=656
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2332,9 +2332,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=172
-				width=50
+				x=768
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2347,9 +2347,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=172
-				width=50
+				x=381
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2361,9 +2361,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=172
-				width=50
+				x=490
+				y=169
+				width=41
 				height=20
 			}
 			monitor {
@@ -2377,9 +2377,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=172
-				width=50
+				x=603
+				y=169
+				width=41
 				height=20
 			}
 			monitor {
@@ -2393,9 +2393,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=172
-				width=50
+				x=710
+				y=169
+				width=41
 				height=20
 			}
 			monitor {
@@ -2409,9 +2409,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=172
-				width=40
+				x=824
+				y=169
+				width=33
 				height=20
 			}
 			monitor {
@@ -2425,9 +2425,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=172
-				width=50
+				x=876
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2440,9 +2440,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=172
-				width=40
+				x=931
+				y=169
+				width=33
 				height=20
 			}
 			monitor {
@@ -2456,9 +2456,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=172
-				width=50
+				x=988
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2471,9 +2471,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=172
-				width=40
+				x=1044
+				y=169
+				width=33
 				height=20
 			}
 			monitor {
@@ -2487,9 +2487,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=172
-				width=50
+				x=1099
+				y=169
+				width=41
 				height=20
 			}
 			control {
@@ -2502,9 +2502,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=172
-				width=40
+				x=1157
+				y=169
+				width=33
 				height=20
 			}
 			monitor {
@@ -2518,9 +2518,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=172
-				width=20
+				x=445
+				y=169
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -2533,9 +2533,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=172
-				width=20
+				x=444
+				y=169
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -2548,9 +2548,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=199
-				width=100
+				x=15
+				y=195
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -2561,9 +2561,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=198
-				width=50
+				x=159
+				y=194
+				width=41
 				height=20
 			}
 			monitor {
@@ -2577,9 +2577,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=198
-				width=50
+				x=106
+				y=194
+				width=41
 				height=20
 			}
 			monitor {
@@ -2592,9 +2592,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=198
-				width=50
+				x=216
+				y=194
+				width=41
 				height=20
 			}
 			monitor {
@@ -2608,9 +2608,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=198
-				width=50
+				x=272
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2623,9 +2623,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=198
-				width=50
+				x=328
+				y=194
+				width=41
 				height=20
 			}
 			monitor {
@@ -2639,9 +2639,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=198
-				width=50
+				x=545
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2654,9 +2654,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=198
-				width=50
+				x=656
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2669,9 +2669,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=198
-				width=50
+				x=768
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2684,9 +2684,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=198
-				width=50
+				x=381
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2698,9 +2698,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=198
-				width=50
+				x=490
+				y=194
+				width=41
 				height=20
 			}
 			monitor {
@@ -2714,9 +2714,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=198
-				width=50
+				x=603
+				y=194
+				width=41
 				height=20
 			}
 			monitor {
@@ -2730,9 +2730,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=198
-				width=50
+				x=710
+				y=194
+				width=41
 				height=20
 			}
 			monitor {
@@ -2746,9 +2746,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=198
-				width=40
+				x=824
+				y=194
+				width=33
 				height=20
 			}
 			monitor {
@@ -2762,9 +2762,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=198
-				width=50
+				x=876
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2777,9 +2777,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=198
-				width=40
+				x=931
+				y=194
+				width=33
 				height=20
 			}
 			monitor {
@@ -2793,9 +2793,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=198
-				width=50
+				x=988
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2808,9 +2808,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=198
-				width=40
+				x=1044
+				y=194
+				width=33
 				height=20
 			}
 			monitor {
@@ -2824,9 +2824,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=198
-				width=50
+				x=1099
+				y=194
+				width=41
 				height=20
 			}
 			control {
@@ -2839,9 +2839,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=198
-				width=40
+				x=1157
+				y=194
+				width=33
 				height=20
 			}
 			monitor {
@@ -2855,9 +2855,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=198
-				width=20
+				x=445
+				y=194
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -2870,9 +2870,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=198
-				width=20
+				x=444
+				y=194
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -2887,18 +2887,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=326
-		width=1473
-		height=73
+		x=15
+		y=318
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=327
-				width=100
+				x=15
+				y=319
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -2909,9 +2909,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=326
-				width=50
+				x=159
+				y=318
+				width=41
 				height=20
 			}
 			monitor {
@@ -2925,9 +2925,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=326
-				width=50
+				x=106
+				y=318
+				width=41
 				height=20
 			}
 			monitor {
@@ -2940,9 +2940,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=326
-				width=50
+				x=216
+				y=318
+				width=41
 				height=20
 			}
 			monitor {
@@ -2956,9 +2956,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=326
-				width=50
+				x=272
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -2971,9 +2971,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=326
-				width=50
+				x=328
+				y=318
+				width=41
 				height=20
 			}
 			monitor {
@@ -2987,9 +2987,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=326
-				width=50
+				x=545
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -3002,9 +3002,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=326
-				width=50
+				x=656
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -3017,9 +3017,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=326
-				width=50
+				x=768
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -3032,9 +3032,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=326
-				width=50
+				x=381
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -3046,9 +3046,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=326
-				width=50
+				x=490
+				y=318
+				width=41
 				height=20
 			}
 			monitor {
@@ -3062,9 +3062,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=326
-				width=50
+				x=603
+				y=318
+				width=41
 				height=20
 			}
 			monitor {
@@ -3078,9 +3078,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=326
-				width=50
+				x=710
+				y=318
+				width=41
 				height=20
 			}
 			monitor {
@@ -3094,9 +3094,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=326
-				width=40
+				x=824
+				y=318
+				width=33
 				height=20
 			}
 			monitor {
@@ -3110,9 +3110,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=326
-				width=50
+				x=876
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -3125,9 +3125,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=326
-				width=40
+				x=931
+				y=318
+				width=33
 				height=20
 			}
 			monitor {
@@ -3141,9 +3141,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=326
-				width=50
+				x=988
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -3156,9 +3156,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=326
-				width=40
+				x=1044
+				y=318
+				width=33
 				height=20
 			}
 			monitor {
@@ -3172,9 +3172,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=326
-				width=50
+				x=1099
+				y=318
+				width=41
 				height=20
 			}
 			control {
@@ -3187,9 +3187,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=326
-				width=40
+				x=1157
+				y=318
+				width=33
 				height=20
 			}
 			monitor {
@@ -3203,9 +3203,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=326
-				width=20
+				x=445
+				y=318
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -3218,9 +3218,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=326
-				width=20
+				x=444
+				y=318
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -3233,9 +3233,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=353
-				width=100
+				x=15
+				y=345
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -3246,9 +3246,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=352
-				width=50
+				x=159
+				y=344
+				width=41
 				height=20
 			}
 			monitor {
@@ -3262,9 +3262,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=352
-				width=50
+				x=106
+				y=344
+				width=41
 				height=20
 			}
 			monitor {
@@ -3277,9 +3277,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=352
-				width=50
+				x=216
+				y=344
+				width=41
 				height=20
 			}
 			monitor {
@@ -3293,9 +3293,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=352
-				width=50
+				x=272
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3308,9 +3308,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=352
-				width=50
+				x=328
+				y=344
+				width=41
 				height=20
 			}
 			monitor {
@@ -3324,9 +3324,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=352
-				width=50
+				x=545
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3339,9 +3339,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=352
-				width=50
+				x=656
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3354,9 +3354,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=352
-				width=50
+				x=768
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3369,9 +3369,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=352
-				width=50
+				x=381
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3383,9 +3383,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=352
-				width=50
+				x=490
+				y=344
+				width=41
 				height=20
 			}
 			monitor {
@@ -3399,9 +3399,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=352
-				width=50
+				x=603
+				y=344
+				width=41
 				height=20
 			}
 			monitor {
@@ -3415,9 +3415,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=352
-				width=50
+				x=710
+				y=344
+				width=41
 				height=20
 			}
 			monitor {
@@ -3431,9 +3431,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=352
-				width=40
+				x=824
+				y=344
+				width=33
 				height=20
 			}
 			monitor {
@@ -3447,9 +3447,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=352
-				width=50
+				x=876
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3462,9 +3462,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=352
-				width=40
+				x=931
+				y=344
+				width=33
 				height=20
 			}
 			monitor {
@@ -3478,9 +3478,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=352
-				width=50
+				x=988
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3493,9 +3493,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=352
-				width=40
+				x=1044
+				y=344
+				width=33
 				height=20
 			}
 			monitor {
@@ -3509,9 +3509,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=352
-				width=50
+				x=1099
+				y=344
+				width=41
 				height=20
 			}
 			control {
@@ -3524,9 +3524,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=352
-				width=40
+				x=1157
+				y=344
+				width=33
 				height=20
 			}
 			monitor {
@@ -3540,9 +3540,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=352
-				width=20
+				x=445
+				y=344
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -3555,9 +3555,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=352
-				width=20
+				x=444
+				y=344
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -3570,9 +3570,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=379
-				width=100
+				x=15
+				y=370
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -3583,9 +3583,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=378
-				width=50
+				x=159
+				y=369
+				width=41
 				height=20
 			}
 			monitor {
@@ -3599,9 +3599,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=378
-				width=50
+				x=106
+				y=369
+				width=41
 				height=20
 			}
 			monitor {
@@ -3614,9 +3614,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=378
-				width=50
+				x=216
+				y=369
+				width=41
 				height=20
 			}
 			monitor {
@@ -3630,9 +3630,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=378
-				width=50
+				x=272
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3645,9 +3645,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=378
-				width=50
+				x=328
+				y=369
+				width=41
 				height=20
 			}
 			monitor {
@@ -3661,9 +3661,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=378
-				width=50
+				x=545
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3676,9 +3676,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=378
-				width=50
+				x=656
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3691,9 +3691,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=378
-				width=50
+				x=768
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3706,9 +3706,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=378
-				width=50
+				x=381
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3720,9 +3720,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=378
-				width=50
+				x=490
+				y=369
+				width=41
 				height=20
 			}
 			monitor {
@@ -3736,9 +3736,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=378
-				width=50
+				x=603
+				y=369
+				width=41
 				height=20
 			}
 			monitor {
@@ -3752,9 +3752,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=378
-				width=50
+				x=710
+				y=369
+				width=41
 				height=20
 			}
 			monitor {
@@ -3768,9 +3768,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=378
-				width=40
+				x=824
+				y=369
+				width=33
 				height=20
 			}
 			monitor {
@@ -3784,9 +3784,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=378
-				width=50
+				x=876
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3799,9 +3799,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=378
-				width=40
+				x=931
+				y=369
+				width=33
 				height=20
 			}
 			monitor {
@@ -3815,9 +3815,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=378
-				width=50
+				x=988
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3830,9 +3830,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=378
-				width=40
+				x=1044
+				y=369
+				width=33
 				height=20
 			}
 			monitor {
@@ -3846,9 +3846,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=378
-				width=50
+				x=1099
+				y=369
+				width=41
 				height=20
 			}
 			control {
@@ -3861,9 +3861,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=378
-				width=40
+				x=1157
+				y=369
+				width=33
 				height=20
 			}
 			monitor {
@@ -3877,9 +3877,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=378
-				width=20
+				x=445
+				y=369
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -3892,9 +3892,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=378
-				width=20
+				x=444
+				y=369
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -3909,18 +3909,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=416
-		width=1473
-		height=73
+		x=15
+		y=406
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=417
-				width=100
+				x=15
+				y=407
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -3931,9 +3931,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=416
-				width=50
+				x=159
+				y=406
+				width=41
 				height=20
 			}
 			monitor {
@@ -3947,9 +3947,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=416
-				width=50
+				x=106
+				y=406
+				width=41
 				height=20
 			}
 			monitor {
@@ -3962,9 +3962,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=416
-				width=50
+				x=216
+				y=406
+				width=41
 				height=20
 			}
 			monitor {
@@ -3978,9 +3978,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=416
-				width=50
+				x=272
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -3993,9 +3993,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=416
-				width=50
+				x=328
+				y=406
+				width=41
 				height=20
 			}
 			monitor {
@@ -4009,9 +4009,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=416
-				width=50
+				x=545
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -4024,9 +4024,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=416
-				width=50
+				x=656
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -4039,9 +4039,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=416
-				width=50
+				x=768
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -4054,9 +4054,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=416
-				width=50
+				x=381
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -4068,9 +4068,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=416
-				width=50
+				x=490
+				y=406
+				width=41
 				height=20
 			}
 			monitor {
@@ -4084,9 +4084,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=416
-				width=50
+				x=603
+				y=406
+				width=41
 				height=20
 			}
 			monitor {
@@ -4100,9 +4100,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=416
-				width=50
+				x=710
+				y=406
+				width=41
 				height=20
 			}
 			monitor {
@@ -4116,9 +4116,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=416
-				width=40
+				x=824
+				y=406
+				width=33
 				height=20
 			}
 			monitor {
@@ -4132,9 +4132,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=416
-				width=50
+				x=876
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -4147,9 +4147,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=416
-				width=40
+				x=931
+				y=406
+				width=33
 				height=20
 			}
 			monitor {
@@ -4163,9 +4163,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=416
-				width=50
+				x=988
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -4178,9 +4178,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=416
-				width=40
+				x=1044
+				y=406
+				width=33
 				height=20
 			}
 			monitor {
@@ -4194,9 +4194,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=416
-				width=50
+				x=1099
+				y=406
+				width=41
 				height=20
 			}
 			control {
@@ -4209,9 +4209,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=416
-				width=40
+				x=1157
+				y=406
+				width=33
 				height=20
 			}
 			monitor {
@@ -4225,9 +4225,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=416
-				width=20
+				x=445
+				y=406
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -4240,9 +4240,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=416
-				width=20
+				x=444
+				y=406
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -4255,9 +4255,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=443
-				width=100
+				x=15
+				y=433
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -4268,9 +4268,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=442
-				width=50
+				x=159
+				y=432
+				width=41
 				height=20
 			}
 			monitor {
@@ -4284,9 +4284,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=442
-				width=50
+				x=106
+				y=432
+				width=41
 				height=20
 			}
 			monitor {
@@ -4299,9 +4299,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=442
-				width=50
+				x=216
+				y=432
+				width=41
 				height=20
 			}
 			monitor {
@@ -4315,9 +4315,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=442
-				width=50
+				x=272
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4330,9 +4330,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=442
-				width=50
+				x=328
+				y=432
+				width=41
 				height=20
 			}
 			monitor {
@@ -4346,9 +4346,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=442
-				width=50
+				x=545
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4361,9 +4361,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=442
-				width=50
+				x=656
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4376,9 +4376,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=442
-				width=50
+				x=768
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4391,9 +4391,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=442
-				width=50
+				x=381
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4405,9 +4405,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=442
-				width=50
+				x=490
+				y=432
+				width=41
 				height=20
 			}
 			monitor {
@@ -4421,9 +4421,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=442
-				width=50
+				x=603
+				y=432
+				width=41
 				height=20
 			}
 			monitor {
@@ -4437,9 +4437,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=442
-				width=50
+				x=710
+				y=432
+				width=41
 				height=20
 			}
 			monitor {
@@ -4453,9 +4453,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=442
-				width=40
+				x=824
+				y=432
+				width=33
 				height=20
 			}
 			monitor {
@@ -4469,9 +4469,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=442
-				width=50
+				x=876
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4484,9 +4484,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=442
-				width=40
+				x=931
+				y=432
+				width=33
 				height=20
 			}
 			monitor {
@@ -4500,9 +4500,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=442
-				width=50
+				x=988
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4515,9 +4515,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=442
-				width=40
+				x=1044
+				y=432
+				width=33
 				height=20
 			}
 			monitor {
@@ -4531,9 +4531,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=442
-				width=50
+				x=1099
+				y=432
+				width=41
 				height=20
 			}
 			control {
@@ -4546,9 +4546,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=442
-				width=40
+				x=1157
+				y=432
+				width=33
 				height=20
 			}
 			monitor {
@@ -4562,9 +4562,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=442
-				width=20
+				x=445
+				y=432
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -4577,9 +4577,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=442
-				width=20
+				x=444
+				y=432
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -4592,9 +4592,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=469
-				width=100
+				x=15
+				y=458
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -4605,9 +4605,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=468
-				width=50
+				x=159
+				y=457
+				width=41
 				height=20
 			}
 			monitor {
@@ -4621,9 +4621,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=468
-				width=50
+				x=106
+				y=457
+				width=41
 				height=20
 			}
 			monitor {
@@ -4636,9 +4636,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=468
-				width=50
+				x=216
+				y=457
+				width=41
 				height=20
 			}
 			monitor {
@@ -4652,9 +4652,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=468
-				width=50
+				x=272
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4667,9 +4667,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=468
-				width=50
+				x=328
+				y=457
+				width=41
 				height=20
 			}
 			monitor {
@@ -4683,9 +4683,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=468
-				width=50
+				x=545
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4698,9 +4698,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=468
-				width=50
+				x=656
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4713,9 +4713,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=468
-				width=50
+				x=768
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4728,9 +4728,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=468
-				width=50
+				x=381
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4742,9 +4742,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=468
-				width=50
+				x=490
+				y=457
+				width=41
 				height=20
 			}
 			monitor {
@@ -4758,9 +4758,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=468
-				width=50
+				x=603
+				y=457
+				width=41
 				height=20
 			}
 			monitor {
@@ -4774,9 +4774,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=468
-				width=50
+				x=710
+				y=457
+				width=41
 				height=20
 			}
 			monitor {
@@ -4790,9 +4790,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=468
-				width=40
+				x=824
+				y=457
+				width=33
 				height=20
 			}
 			monitor {
@@ -4806,9 +4806,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=468
-				width=50
+				x=876
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4821,9 +4821,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=468
-				width=40
+				x=931
+				y=457
+				width=33
 				height=20
 			}
 			monitor {
@@ -4837,9 +4837,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=468
-				width=50
+				x=988
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4852,9 +4852,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=468
-				width=40
+				x=1044
+				y=457
+				width=33
 				height=20
 			}
 			monitor {
@@ -4868,9 +4868,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=468
-				width=50
+				x=1099
+				y=457
+				width=41
 				height=20
 			}
 			control {
@@ -4883,9 +4883,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=468
-				width=40
+				x=1157
+				y=457
+				width=33
 				height=20
 			}
 			monitor {
@@ -4899,9 +4899,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=468
-				width=20
+				x=445
+				y=457
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -4914,9 +4914,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=468
-				width=20
+				x=444
+				y=457
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -4931,18 +4931,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=506
-		width=1473
-		height=73
+		x=15
+		y=494
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=507
-				width=100
+				x=15
+				y=495
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -4953,9 +4953,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=506
-				width=50
+				x=159
+				y=494
+				width=41
 				height=20
 			}
 			monitor {
@@ -4969,9 +4969,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=506
-				width=50
+				x=106
+				y=494
+				width=41
 				height=20
 			}
 			monitor {
@@ -4984,9 +4984,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=506
-				width=50
+				x=216
+				y=494
+				width=41
 				height=20
 			}
 			monitor {
@@ -5000,9 +5000,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=506
-				width=50
+				x=272
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5015,9 +5015,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=506
-				width=50
+				x=328
+				y=494
+				width=41
 				height=20
 			}
 			monitor {
@@ -5031,9 +5031,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=506
-				width=50
+				x=545
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5046,9 +5046,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=506
-				width=50
+				x=656
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5061,9 +5061,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=506
-				width=50
+				x=768
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5076,9 +5076,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=506
-				width=50
+				x=381
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5090,9 +5090,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=506
-				width=50
+				x=490
+				y=494
+				width=41
 				height=20
 			}
 			monitor {
@@ -5106,9 +5106,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=506
-				width=50
+				x=603
+				y=494
+				width=41
 				height=20
 			}
 			monitor {
@@ -5122,9 +5122,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=506
-				width=50
+				x=710
+				y=494
+				width=41
 				height=20
 			}
 			monitor {
@@ -5138,9 +5138,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=506
-				width=40
+				x=824
+				y=494
+				width=33
 				height=20
 			}
 			monitor {
@@ -5154,9 +5154,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=506
-				width=50
+				x=876
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5169,9 +5169,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=506
-				width=40
+				x=931
+				y=494
+				width=33
 				height=20
 			}
 			monitor {
@@ -5185,9 +5185,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=506
-				width=50
+				x=988
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5200,9 +5200,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=506
-				width=40
+				x=1044
+				y=494
+				width=33
 				height=20
 			}
 			monitor {
@@ -5216,9 +5216,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=506
-				width=50
+				x=1099
+				y=494
+				width=41
 				height=20
 			}
 			control {
@@ -5231,9 +5231,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=506
-				width=40
+				x=1157
+				y=494
+				width=33
 				height=20
 			}
 			monitor {
@@ -5247,9 +5247,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=506
-				width=20
+				x=445
+				y=494
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -5262,9 +5262,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=506
-				width=20
+				x=444
+				y=494
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -5277,9 +5277,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=533
-				width=100
+				x=15
+				y=521
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -5290,9 +5290,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=532
-				width=50
+				x=159
+				y=520
+				width=41
 				height=20
 			}
 			monitor {
@@ -5306,9 +5306,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=532
-				width=50
+				x=106
+				y=520
+				width=41
 				height=20
 			}
 			monitor {
@@ -5321,9 +5321,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=532
-				width=50
+				x=216
+				y=520
+				width=41
 				height=20
 			}
 			monitor {
@@ -5337,9 +5337,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=532
-				width=50
+				x=272
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5352,9 +5352,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=532
-				width=50
+				x=328
+				y=520
+				width=41
 				height=20
 			}
 			monitor {
@@ -5368,9 +5368,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=532
-				width=50
+				x=545
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5383,9 +5383,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=532
-				width=50
+				x=656
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5398,9 +5398,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=532
-				width=50
+				x=768
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5413,9 +5413,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=532
-				width=50
+				x=381
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5427,9 +5427,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=532
-				width=50
+				x=490
+				y=520
+				width=41
 				height=20
 			}
 			monitor {
@@ -5443,9 +5443,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=532
-				width=50
+				x=603
+				y=520
+				width=41
 				height=20
 			}
 			monitor {
@@ -5459,9 +5459,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=532
-				width=50
+				x=710
+				y=520
+				width=41
 				height=20
 			}
 			monitor {
@@ -5475,9 +5475,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=532
-				width=40
+				x=824
+				y=520
+				width=33
 				height=20
 			}
 			monitor {
@@ -5491,9 +5491,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=532
-				width=50
+				x=876
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5506,9 +5506,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=532
-				width=40
+				x=931
+				y=520
+				width=33
 				height=20
 			}
 			monitor {
@@ -5522,9 +5522,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=532
-				width=50
+				x=988
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5537,9 +5537,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=532
-				width=40
+				x=1044
+				y=520
+				width=33
 				height=20
 			}
 			monitor {
@@ -5553,9 +5553,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=532
-				width=50
+				x=1099
+				y=520
+				width=41
 				height=20
 			}
 			control {
@@ -5568,9 +5568,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=532
-				width=40
+				x=1157
+				y=520
+				width=33
 				height=20
 			}
 			monitor {
@@ -5584,9 +5584,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=532
-				width=20
+				x=445
+				y=520
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -5599,9 +5599,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=532
-				width=20
+				x=444
+				y=520
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -5614,9 +5614,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=559
-				width=100
+				x=15
+				y=546
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -5627,9 +5627,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=558
-				width=50
+				x=159
+				y=545
+				width=41
 				height=20
 			}
 			monitor {
@@ -5643,9 +5643,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=558
-				width=50
+				x=106
+				y=545
+				width=41
 				height=20
 			}
 			monitor {
@@ -5658,9 +5658,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=558
-				width=50
+				x=216
+				y=545
+				width=41
 				height=20
 			}
 			monitor {
@@ -5674,9 +5674,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=558
-				width=50
+				x=272
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5689,9 +5689,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=558
-				width=50
+				x=328
+				y=545
+				width=41
 				height=20
 			}
 			monitor {
@@ -5705,9 +5705,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=558
-				width=50
+				x=545
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5720,9 +5720,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=558
-				width=50
+				x=656
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5735,9 +5735,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=558
-				width=50
+				x=768
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5750,9 +5750,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=558
-				width=50
+				x=381
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5764,9 +5764,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=558
-				width=50
+				x=490
+				y=545
+				width=41
 				height=20
 			}
 			monitor {
@@ -5780,9 +5780,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=558
-				width=50
+				x=603
+				y=545
+				width=41
 				height=20
 			}
 			monitor {
@@ -5796,9 +5796,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=558
-				width=50
+				x=710
+				y=545
+				width=41
 				height=20
 			}
 			monitor {
@@ -5812,9 +5812,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=558
-				width=40
+				x=824
+				y=545
+				width=33
 				height=20
 			}
 			monitor {
@@ -5828,9 +5828,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=558
-				width=50
+				x=876
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5843,9 +5843,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=558
-				width=40
+				x=931
+				y=545
+				width=33
 				height=20
 			}
 			monitor {
@@ -5859,9 +5859,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=558
-				width=50
+				x=988
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5874,9 +5874,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=558
-				width=40
+				x=1044
+				y=545
+				width=33
 				height=20
 			}
 			monitor {
@@ -5890,9 +5890,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=558
-				width=50
+				x=1099
+				y=545
+				width=41
 				height=20
 			}
 			control {
@@ -5905,9 +5905,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=558
-				width=40
+				x=1157
+				y=545
+				width=33
 				height=20
 			}
 			monitor {
@@ -5921,9 +5921,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=558
-				width=20
+				x=445
+				y=545
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -5936,9 +5936,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=558
-				width=20
+				x=444
+				y=545
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -5953,18 +5953,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=596
-		width=1473
-		height=73
+		x=15
+		y=581
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=597
-				width=100
+				x=15
+				y=582
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -5975,9 +5975,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=596
-				width=50
+				x=159
+				y=581
+				width=41
 				height=20
 			}
 			monitor {
@@ -5991,9 +5991,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=596
-				width=50
+				x=106
+				y=581
+				width=41
 				height=20
 			}
 			monitor {
@@ -6006,9 +6006,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=596
-				width=50
+				x=216
+				y=581
+				width=41
 				height=20
 			}
 			monitor {
@@ -6022,9 +6022,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=596
-				width=50
+				x=272
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6037,9 +6037,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=596
-				width=50
+				x=328
+				y=581
+				width=41
 				height=20
 			}
 			monitor {
@@ -6053,9 +6053,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=596
-				width=50
+				x=545
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6068,9 +6068,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=596
-				width=50
+				x=656
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6083,9 +6083,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=596
-				width=50
+				x=768
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6098,9 +6098,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=596
-				width=50
+				x=381
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6112,9 +6112,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=596
-				width=50
+				x=490
+				y=581
+				width=41
 				height=20
 			}
 			monitor {
@@ -6128,9 +6128,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=596
-				width=50
+				x=603
+				y=581
+				width=41
 				height=20
 			}
 			monitor {
@@ -6144,9 +6144,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=596
-				width=50
+				x=710
+				y=581
+				width=41
 				height=20
 			}
 			monitor {
@@ -6160,9 +6160,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=596
-				width=40
+				x=824
+				y=581
+				width=33
 				height=20
 			}
 			monitor {
@@ -6176,9 +6176,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=596
-				width=50
+				x=876
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6191,9 +6191,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=596
-				width=40
+				x=931
+				y=581
+				width=33
 				height=20
 			}
 			monitor {
@@ -6207,9 +6207,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=596
-				width=50
+				x=988
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6222,9 +6222,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=596
-				width=40
+				x=1044
+				y=581
+				width=33
 				height=20
 			}
 			monitor {
@@ -6238,9 +6238,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=596
-				width=50
+				x=1099
+				y=581
+				width=41
 				height=20
 			}
 			control {
@@ -6253,9 +6253,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=596
-				width=40
+				x=1157
+				y=581
+				width=33
 				height=20
 			}
 			monitor {
@@ -6269,9 +6269,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=596
-				width=20
+				x=445
+				y=581
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -6284,9 +6284,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=596
-				width=20
+				x=444
+				y=581
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -6299,9 +6299,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=623
-				width=100
+				x=15
+				y=608
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -6312,9 +6312,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=622
-				width=50
+				x=159
+				y=607
+				width=41
 				height=20
 			}
 			monitor {
@@ -6328,9 +6328,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=622
-				width=50
+				x=106
+				y=607
+				width=41
 				height=20
 			}
 			monitor {
@@ -6343,9 +6343,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=622
-				width=50
+				x=216
+				y=607
+				width=41
 				height=20
 			}
 			monitor {
@@ -6359,9 +6359,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=622
-				width=50
+				x=272
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6374,9 +6374,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=622
-				width=50
+				x=328
+				y=607
+				width=41
 				height=20
 			}
 			monitor {
@@ -6390,9 +6390,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=622
-				width=50
+				x=545
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6405,9 +6405,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=622
-				width=50
+				x=656
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6420,9 +6420,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=622
-				width=50
+				x=768
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6435,9 +6435,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=622
-				width=50
+				x=381
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6449,9 +6449,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=622
-				width=50
+				x=490
+				y=607
+				width=41
 				height=20
 			}
 			monitor {
@@ -6465,9 +6465,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=622
-				width=50
+				x=603
+				y=607
+				width=41
 				height=20
 			}
 			monitor {
@@ -6481,9 +6481,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=622
-				width=50
+				x=710
+				y=607
+				width=41
 				height=20
 			}
 			monitor {
@@ -6497,9 +6497,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=622
-				width=40
+				x=824
+				y=607
+				width=33
 				height=20
 			}
 			monitor {
@@ -6513,9 +6513,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=622
-				width=50
+				x=876
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6528,9 +6528,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=622
-				width=40
+				x=931
+				y=607
+				width=33
 				height=20
 			}
 			monitor {
@@ -6544,9 +6544,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=622
-				width=50
+				x=988
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6559,9 +6559,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=622
-				width=40
+				x=1044
+				y=607
+				width=33
 				height=20
 			}
 			monitor {
@@ -6575,9 +6575,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=622
-				width=50
+				x=1099
+				y=607
+				width=41
 				height=20
 			}
 			control {
@@ -6590,9 +6590,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=622
-				width=40
+				x=1157
+				y=607
+				width=33
 				height=20
 			}
 			monitor {
@@ -6606,9 +6606,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=622
-				width=20
+				x=445
+				y=607
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -6621,9 +6621,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=622
-				width=20
+				x=444
+				y=607
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -6636,9 +6636,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=649
-				width=100
+				x=15
+				y=633
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -6649,9 +6649,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=648
-				width=50
+				x=159
+				y=632
+				width=41
 				height=20
 			}
 			monitor {
@@ -6665,9 +6665,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=648
-				width=50
+				x=106
+				y=632
+				width=41
 				height=20
 			}
 			monitor {
@@ -6680,9 +6680,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=648
-				width=50
+				x=216
+				y=632
+				width=41
 				height=20
 			}
 			monitor {
@@ -6696,9 +6696,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=648
-				width=50
+				x=272
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6711,9 +6711,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=648
-				width=50
+				x=328
+				y=632
+				width=41
 				height=20
 			}
 			monitor {
@@ -6727,9 +6727,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=648
-				width=50
+				x=545
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6742,9 +6742,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=648
-				width=50
+				x=656
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6757,9 +6757,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=648
-				width=50
+				x=768
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6772,9 +6772,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=648
-				width=50
+				x=381
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6786,9 +6786,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=648
-				width=50
+				x=490
+				y=632
+				width=41
 				height=20
 			}
 			monitor {
@@ -6802,9 +6802,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=648
-				width=50
+				x=603
+				y=632
+				width=41
 				height=20
 			}
 			monitor {
@@ -6818,9 +6818,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=648
-				width=50
+				x=710
+				y=632
+				width=41
 				height=20
 			}
 			monitor {
@@ -6834,9 +6834,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=648
-				width=40
+				x=824
+				y=632
+				width=33
 				height=20
 			}
 			monitor {
@@ -6850,9 +6850,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=648
-				width=50
+				x=876
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6865,9 +6865,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=648
-				width=40
+				x=931
+				y=632
+				width=33
 				height=20
 			}
 			monitor {
@@ -6881,9 +6881,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=648
-				width=50
+				x=988
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6896,9 +6896,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=648
-				width=40
+				x=1044
+				y=632
+				width=33
 				height=20
 			}
 			monitor {
@@ -6912,9 +6912,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=648
-				width=50
+				x=1099
+				y=632
+				width=41
 				height=20
 			}
 			control {
@@ -6927,9 +6927,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=648
-				width=40
+				x=1157
+				y=632
+				width=33
 				height=20
 			}
 			monitor {
@@ -6943,9 +6943,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=648
-				width=20
+				x=445
+				y=632
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -6958,9 +6958,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=648
-				width=20
+				x=444
+				y=632
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -6975,18 +6975,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=686
-		width=1473
-		height=73
+		x=15
+		y=667
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=687
-				width=100
+				x=15
+				y=668
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -6997,9 +6997,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=686
-				width=50
+				x=159
+				y=667
+				width=41
 				height=20
 			}
 			monitor {
@@ -7013,9 +7013,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=686
-				width=50
+				x=106
+				y=667
+				width=41
 				height=20
 			}
 			monitor {
@@ -7028,9 +7028,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=686
-				width=50
+				x=216
+				y=667
+				width=41
 				height=20
 			}
 			monitor {
@@ -7044,9 +7044,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=686
-				width=50
+				x=272
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7059,9 +7059,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=686
-				width=50
+				x=328
+				y=667
+				width=41
 				height=20
 			}
 			monitor {
@@ -7075,9 +7075,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=686
-				width=50
+				x=545
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7090,9 +7090,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=686
-				width=50
+				x=656
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7105,9 +7105,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=686
-				width=50
+				x=768
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7120,9 +7120,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=686
-				width=50
+				x=381
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7134,9 +7134,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=686
-				width=50
+				x=490
+				y=667
+				width=41
 				height=20
 			}
 			monitor {
@@ -7150,9 +7150,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=686
-				width=50
+				x=603
+				y=667
+				width=41
 				height=20
 			}
 			monitor {
@@ -7166,9 +7166,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=686
-				width=50
+				x=710
+				y=667
+				width=41
 				height=20
 			}
 			monitor {
@@ -7182,9 +7182,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=686
-				width=40
+				x=824
+				y=667
+				width=33
 				height=20
 			}
 			monitor {
@@ -7198,9 +7198,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=686
-				width=50
+				x=876
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7213,9 +7213,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=686
-				width=40
+				x=931
+				y=667
+				width=33
 				height=20
 			}
 			monitor {
@@ -7229,9 +7229,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=686
-				width=50
+				x=988
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7244,9 +7244,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=686
-				width=40
+				x=1044
+				y=667
+				width=33
 				height=20
 			}
 			monitor {
@@ -7260,9 +7260,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=686
-				width=50
+				x=1099
+				y=667
+				width=41
 				height=20
 			}
 			control {
@@ -7275,9 +7275,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=686
-				width=40
+				x=1157
+				y=667
+				width=33
 				height=20
 			}
 			monitor {
@@ -7291,9 +7291,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=686
-				width=20
+				x=445
+				y=667
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -7306,9 +7306,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=686
-				width=20
+				x=444
+				y=667
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -7321,9 +7321,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=713
-				width=100
+				x=15
+				y=694
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -7334,9 +7334,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=712
-				width=50
+				x=159
+				y=693
+				width=41
 				height=20
 			}
 			monitor {
@@ -7350,9 +7350,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=712
-				width=50
+				x=106
+				y=693
+				width=41
 				height=20
 			}
 			monitor {
@@ -7365,9 +7365,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=712
-				width=50
+				x=216
+				y=693
+				width=41
 				height=20
 			}
 			monitor {
@@ -7381,9 +7381,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=712
-				width=50
+				x=272
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7396,9 +7396,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=712
-				width=50
+				x=328
+				y=693
+				width=41
 				height=20
 			}
 			monitor {
@@ -7412,9 +7412,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=712
-				width=50
+				x=545
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7427,9 +7427,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=712
-				width=50
+				x=656
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7442,9 +7442,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=712
-				width=50
+				x=768
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7457,9 +7457,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=712
-				width=50
+				x=381
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7471,9 +7471,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=712
-				width=50
+				x=490
+				y=693
+				width=41
 				height=20
 			}
 			monitor {
@@ -7487,9 +7487,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=712
-				width=50
+				x=603
+				y=693
+				width=41
 				height=20
 			}
 			monitor {
@@ -7503,9 +7503,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=712
-				width=50
+				x=710
+				y=693
+				width=41
 				height=20
 			}
 			monitor {
@@ -7519,9 +7519,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=712
-				width=40
+				x=824
+				y=693
+				width=33
 				height=20
 			}
 			monitor {
@@ -7535,9 +7535,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=712
-				width=50
+				x=876
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7550,9 +7550,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=712
-				width=40
+				x=931
+				y=693
+				width=33
 				height=20
 			}
 			monitor {
@@ -7566,9 +7566,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=712
-				width=50
+				x=988
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7581,9 +7581,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=712
-				width=40
+				x=1044
+				y=693
+				width=33
 				height=20
 			}
 			monitor {
@@ -7597,9 +7597,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=712
-				width=50
+				x=1099
+				y=693
+				width=41
 				height=20
 			}
 			control {
@@ -7612,9 +7612,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=712
-				width=40
+				x=1157
+				y=693
+				width=33
 				height=20
 			}
 			monitor {
@@ -7628,9 +7628,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=712
-				width=20
+				x=445
+				y=693
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -7643,9 +7643,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=712
-				width=20
+				x=444
+				y=693
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -7658,9 +7658,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=739
-				width=100
+				x=15
+				y=719
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -7671,9 +7671,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=738
-				width=50
+				x=159
+				y=718
+				width=41
 				height=20
 			}
 			monitor {
@@ -7687,9 +7687,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=738
-				width=50
+				x=106
+				y=718
+				width=41
 				height=20
 			}
 			monitor {
@@ -7702,9 +7702,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=738
-				width=50
+				x=216
+				y=718
+				width=41
 				height=20
 			}
 			monitor {
@@ -7718,9 +7718,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=738
-				width=50
+				x=272
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7733,9 +7733,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=738
-				width=50
+				x=328
+				y=718
+				width=41
 				height=20
 			}
 			monitor {
@@ -7749,9 +7749,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=738
-				width=50
+				x=545
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7764,9 +7764,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=738
-				width=50
+				x=656
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7779,9 +7779,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=738
-				width=50
+				x=768
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7794,9 +7794,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=738
-				width=50
+				x=381
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7808,9 +7808,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=738
-				width=50
+				x=490
+				y=718
+				width=41
 				height=20
 			}
 			monitor {
@@ -7824,9 +7824,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=738
-				width=50
+				x=603
+				y=718
+				width=41
 				height=20
 			}
 			monitor {
@@ -7840,9 +7840,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=738
-				width=50
+				x=710
+				y=718
+				width=41
 				height=20
 			}
 			monitor {
@@ -7856,9 +7856,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=738
-				width=40
+				x=824
+				y=718
+				width=33
 				height=20
 			}
 			monitor {
@@ -7872,9 +7872,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=738
-				width=50
+				x=876
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7887,9 +7887,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=738
-				width=40
+				x=931
+				y=718
+				width=33
 				height=20
 			}
 			monitor {
@@ -7903,9 +7903,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=738
-				width=50
+				x=988
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7918,9 +7918,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=738
-				width=40
+				x=1044
+				y=718
+				width=33
 				height=20
 			}
 			monitor {
@@ -7934,9 +7934,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=738
-				width=50
+				x=1099
+				y=718
+				width=41
 				height=20
 			}
 			control {
@@ -7949,9 +7949,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=738
-				width=40
+				x=1157
+				y=718
+				width=33
 				height=20
 			}
 			monitor {
@@ -7965,9 +7965,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=738
-				width=20
+				x=445
+				y=718
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -7980,9 +7980,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=738
-				width=20
+				x=444
+				y=718
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -7997,18 +7997,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=776
-		width=1473
-		height=73
+		x=15
+		y=757
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=777
-				width=100
+				x=15
+				y=758
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -8019,9 +8019,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=776
-				width=50
+				x=159
+				y=757
+				width=41
 				height=20
 			}
 			monitor {
@@ -8035,9 +8035,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=776
-				width=50
+				x=106
+				y=757
+				width=41
 				height=20
 			}
 			monitor {
@@ -8050,9 +8050,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=776
-				width=50
+				x=216
+				y=757
+				width=41
 				height=20
 			}
 			monitor {
@@ -8066,9 +8066,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=776
-				width=50
+				x=272
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8081,9 +8081,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=776
-				width=50
+				x=328
+				y=757
+				width=41
 				height=20
 			}
 			monitor {
@@ -8097,9 +8097,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=776
-				width=50
+				x=545
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8112,9 +8112,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=776
-				width=50
+				x=656
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8127,9 +8127,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=776
-				width=50
+				x=768
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8142,9 +8142,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=776
-				width=50
+				x=381
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8156,9 +8156,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=776
-				width=50
+				x=490
+				y=757
+				width=41
 				height=20
 			}
 			monitor {
@@ -8172,9 +8172,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=776
-				width=50
+				x=603
+				y=757
+				width=41
 				height=20
 			}
 			monitor {
@@ -8188,9 +8188,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=776
-				width=50
+				x=710
+				y=757
+				width=41
 				height=20
 			}
 			monitor {
@@ -8204,9 +8204,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=776
-				width=40
+				x=824
+				y=757
+				width=33
 				height=20
 			}
 			monitor {
@@ -8220,9 +8220,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=776
-				width=50
+				x=876
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8235,9 +8235,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=776
-				width=40
+				x=931
+				y=757
+				width=33
 				height=20
 			}
 			monitor {
@@ -8251,9 +8251,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=776
-				width=50
+				x=988
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8266,9 +8266,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=776
-				width=40
+				x=1044
+				y=757
+				width=33
 				height=20
 			}
 			monitor {
@@ -8282,9 +8282,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=776
-				width=50
+				x=1099
+				y=757
+				width=41
 				height=20
 			}
 			control {
@@ -8297,9 +8297,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=776
-				width=40
+				x=1157
+				y=757
+				width=33
 				height=20
 			}
 			monitor {
@@ -8313,9 +8313,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=776
-				width=20
+				x=445
+				y=757
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -8328,9 +8328,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=776
-				width=20
+				x=444
+				y=757
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -8343,9 +8343,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=803
-				width=100
+				x=15
+				y=784
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -8356,9 +8356,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=802
-				width=50
+				x=159
+				y=783
+				width=41
 				height=20
 			}
 			monitor {
@@ -8372,9 +8372,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=802
-				width=50
+				x=106
+				y=783
+				width=41
 				height=20
 			}
 			monitor {
@@ -8387,9 +8387,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=802
-				width=50
+				x=216
+				y=783
+				width=41
 				height=20
 			}
 			monitor {
@@ -8403,9 +8403,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=802
-				width=50
+				x=272
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8418,9 +8418,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=802
-				width=50
+				x=328
+				y=783
+				width=41
 				height=20
 			}
 			monitor {
@@ -8434,9 +8434,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=802
-				width=50
+				x=545
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8449,9 +8449,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=802
-				width=50
+				x=656
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8464,9 +8464,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=802
-				width=50
+				x=768
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8479,9 +8479,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=802
-				width=50
+				x=381
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8493,9 +8493,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=802
-				width=50
+				x=490
+				y=783
+				width=41
 				height=20
 			}
 			monitor {
@@ -8509,9 +8509,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=802
-				width=50
+				x=603
+				y=783
+				width=41
 				height=20
 			}
 			monitor {
@@ -8525,9 +8525,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=802
-				width=50
+				x=710
+				y=783
+				width=41
 				height=20
 			}
 			monitor {
@@ -8541,9 +8541,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=802
-				width=40
+				x=824
+				y=783
+				width=33
 				height=20
 			}
 			monitor {
@@ -8557,9 +8557,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=802
-				width=50
+				x=876
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8572,9 +8572,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=802
-				width=40
+				x=931
+				y=783
+				width=33
 				height=20
 			}
 			monitor {
@@ -8588,9 +8588,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=802
-				width=50
+				x=988
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8603,9 +8603,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=802
-				width=40
+				x=1044
+				y=783
+				width=33
 				height=20
 			}
 			monitor {
@@ -8619,9 +8619,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=802
-				width=50
+				x=1099
+				y=783
+				width=41
 				height=20
 			}
 			control {
@@ -8634,9 +8634,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=802
-				width=40
+				x=1157
+				y=783
+				width=33
 				height=20
 			}
 			monitor {
@@ -8650,9 +8650,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=802
-				width=20
+				x=445
+				y=783
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -8665,9 +8665,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=802
-				width=20
+				x=444
+				y=783
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -8680,9 +8680,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=829
-				width=100
+				x=15
+				y=809
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -8693,9 +8693,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=828
-				width=50
+				x=159
+				y=808
+				width=41
 				height=20
 			}
 			monitor {
@@ -8709,9 +8709,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=828
-				width=50
+				x=106
+				y=808
+				width=41
 				height=20
 			}
 			monitor {
@@ -8724,9 +8724,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=828
-				width=50
+				x=216
+				y=808
+				width=41
 				height=20
 			}
 			monitor {
@@ -8740,9 +8740,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=828
-				width=50
+				x=272
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8755,9 +8755,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=828
-				width=50
+				x=328
+				y=808
+				width=41
 				height=20
 			}
 			monitor {
@@ -8771,9 +8771,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=828
-				width=50
+				x=545
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8786,9 +8786,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=828
-				width=50
+				x=656
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8801,9 +8801,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=828
-				width=50
+				x=768
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8816,9 +8816,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=828
-				width=50
+				x=381
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8830,9 +8830,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=828
-				width=50
+				x=490
+				y=808
+				width=41
 				height=20
 			}
 			monitor {
@@ -8846,9 +8846,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=828
-				width=50
+				x=603
+				y=808
+				width=41
 				height=20
 			}
 			monitor {
@@ -8862,9 +8862,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=828
-				width=50
+				x=710
+				y=808
+				width=41
 				height=20
 			}
 			monitor {
@@ -8878,9 +8878,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=828
-				width=40
+				x=824
+				y=808
+				width=33
 				height=20
 			}
 			monitor {
@@ -8894,9 +8894,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=828
-				width=50
+				x=876
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8909,9 +8909,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=828
-				width=40
+				x=931
+				y=808
+				width=33
 				height=20
 			}
 			monitor {
@@ -8925,9 +8925,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=828
-				width=50
+				x=988
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8940,9 +8940,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=828
-				width=40
+				x=1044
+				y=808
+				width=33
 				height=20
 			}
 			monitor {
@@ -8956,9 +8956,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=828
-				width=50
+				x=1099
+				y=808
+				width=41
 				height=20
 			}
 			control {
@@ -8971,9 +8971,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=828
-				width=40
+				x=1157
+				y=808
+				width=33
 				height=20
 			}
 			monitor {
@@ -8987,9 +8987,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=828
-				width=20
+				x=445
+				y=808
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -9002,9 +9002,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=828
-				width=20
+				x=444
+				y=808
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -9019,18 +9019,18 @@ composite {
 }
 composite {
 	object {
-		x=17
-		y=866
-		width=1473
-		height=73
+		x=15
+		y=845
+		width=1175
+		height=72
 	}
 	"composite name"=""
 	children {
 		text {
 			object {
-				x=17
-				y=867
-				width=100
+				x=15
+				y=846
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -9041,9 +9041,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=866
-				width=50
+				x=159
+				y=845
+				width=41
 				height=20
 			}
 			monitor {
@@ -9057,9 +9057,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=866
-				width=50
+				x=106
+				y=845
+				width=41
 				height=20
 			}
 			monitor {
@@ -9072,9 +9072,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=866
-				width=50
+				x=216
+				y=845
+				width=41
 				height=20
 			}
 			monitor {
@@ -9088,9 +9088,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=866
-				width=50
+				x=272
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9103,9 +9103,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=866
-				width=50
+				x=328
+				y=845
+				width=41
 				height=20
 			}
 			monitor {
@@ -9119,9 +9119,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=866
-				width=50
+				x=545
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9134,9 +9134,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=866
-				width=50
+				x=656
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9149,9 +9149,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=866
-				width=50
+				x=768
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9164,9 +9164,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=866
-				width=50
+				x=381
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9178,9 +9178,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=866
-				width=50
+				x=490
+				y=845
+				width=41
 				height=20
 			}
 			monitor {
@@ -9194,9 +9194,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=866
-				width=50
+				x=603
+				y=845
+				width=41
 				height=20
 			}
 			monitor {
@@ -9210,9 +9210,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=866
-				width=50
+				x=710
+				y=845
+				width=41
 				height=20
 			}
 			monitor {
@@ -9226,9 +9226,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=866
-				width=40
+				x=824
+				y=845
+				width=33
 				height=20
 			}
 			monitor {
@@ -9242,9 +9242,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=866
-				width=50
+				x=876
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9257,9 +9257,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=866
-				width=40
+				x=931
+				y=845
+				width=33
 				height=20
 			}
 			monitor {
@@ -9273,9 +9273,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=866
-				width=50
+				x=988
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9288,9 +9288,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=866
-				width=40
+				x=1044
+				y=845
+				width=33
 				height=20
 			}
 			monitor {
@@ -9304,9 +9304,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=866
-				width=50
+				x=1099
+				y=845
+				width=41
 				height=20
 			}
 			control {
@@ -9319,9 +9319,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=866
-				width=40
+				x=1157
+				y=845
+				width=33
 				height=20
 			}
 			monitor {
@@ -9335,9 +9335,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=866
-				width=20
+				x=445
+				y=845
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -9350,9 +9350,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=866
-				width=20
+				x=444
+				y=845
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -9365,9 +9365,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=893
-				width=100
+				x=15
+				y=872
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -9378,9 +9378,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=892
-				width=50
+				x=159
+				y=871
+				width=41
 				height=20
 			}
 			monitor {
@@ -9394,9 +9394,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=892
-				width=50
+				x=106
+				y=871
+				width=41
 				height=20
 			}
 			monitor {
@@ -9409,9 +9409,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=892
-				width=50
+				x=216
+				y=871
+				width=41
 				height=20
 			}
 			monitor {
@@ -9425,9 +9425,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=892
-				width=50
+				x=272
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9440,9 +9440,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=892
-				width=50
+				x=328
+				y=871
+				width=41
 				height=20
 			}
 			monitor {
@@ -9456,9 +9456,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=892
-				width=50
+				x=545
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9471,9 +9471,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=892
-				width=50
+				x=656
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9486,9 +9486,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=892
-				width=50
+				x=768
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9501,9 +9501,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=892
-				width=50
+				x=381
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9515,9 +9515,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=892
-				width=50
+				x=490
+				y=871
+				width=41
 				height=20
 			}
 			monitor {
@@ -9531,9 +9531,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=892
-				width=50
+				x=603
+				y=871
+				width=41
 				height=20
 			}
 			monitor {
@@ -9547,9 +9547,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=892
-				width=50
+				x=710
+				y=871
+				width=41
 				height=20
 			}
 			monitor {
@@ -9563,9 +9563,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=892
-				width=40
+				x=824
+				y=871
+				width=33
 				height=20
 			}
 			monitor {
@@ -9579,9 +9579,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=892
-				width=50
+				x=876
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9594,9 +9594,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=892
-				width=40
+				x=931
+				y=871
+				width=33
 				height=20
 			}
 			monitor {
@@ -9610,9 +9610,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=892
-				width=50
+				x=988
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9625,9 +9625,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=892
-				width=40
+				x=1044
+				y=871
+				width=33
 				height=20
 			}
 			monitor {
@@ -9641,9 +9641,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=892
-				width=50
+				x=1099
+				y=871
+				width=41
 				height=20
 			}
 			control {
@@ -9656,9 +9656,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=892
-				width=40
+				x=1157
+				y=871
+				width=33
 				height=20
 			}
 			monitor {
@@ -9672,9 +9672,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=892
-				width=20
+				x=445
+				y=871
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -9687,9 +9687,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=892
-				width=20
+				x=444
+				y=871
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -9702,9 +9702,9 @@ composite {
 		}
 		text {
 			object {
-				x=17
-				y=919
-				width=100
+				x=15
+				y=897
+				width=81
 				height=20
 			}
 			"basic attribute" {
@@ -9715,9 +9715,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=198
-				y=918
-				width=50
+				x=159
+				y=896
+				width=41
 				height=20
 			}
 			monitor {
@@ -9731,9 +9731,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=129
-				y=918
-				width=50
+				x=106
+				y=896
+				width=41
 				height=20
 			}
 			monitor {
@@ -9746,9 +9746,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=268
-				y=918
-				width=50
+				x=216
+				y=896
+				width=41
 				height=20
 			}
 			monitor {
@@ -9762,9 +9762,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=338
-				y=918
-				width=50
+				x=272
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9777,9 +9777,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=408
-				y=918
-				width=50
+				x=328
+				y=896
+				width=41
 				height=20
 			}
 			monitor {
@@ -9793,9 +9793,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=681
-				y=918
-				width=50
+				x=545
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9808,9 +9808,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=821
-				y=918
-				width=50
+				x=656
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9823,9 +9823,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=961
-				y=918
-				width=50
+				x=768
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9838,9 +9838,9 @@ composite {
 		}
 		"choice button" {
 			object {
-				x=478
-				y=918
-				width=50
+				x=381
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9852,9 +9852,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=611
-				y=918
-				width=50
+				x=490
+				y=896
+				width=41
 				height=20
 			}
 			monitor {
@@ -9868,9 +9868,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=751
-				y=918
-				width=50
+				x=603
+				y=896
+				width=41
 				height=20
 			}
 			monitor {
@@ -9884,9 +9884,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=891
-				y=918
-				width=50
+				x=710
+				y=896
+				width=41
 				height=20
 			}
 			monitor {
@@ -9900,9 +9900,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1029
-				y=918
-				width=40
+				x=824
+				y=896
+				width=33
 				height=20
 			}
 			monitor {
@@ -9916,9 +9916,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1097
-				y=918
-				width=50
+				x=876
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9931,9 +9931,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1167
-				y=918
-				width=40
+				x=931
+				y=896
+				width=33
 				height=20
 			}
 			monitor {
@@ -9947,9 +9947,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1238
-				y=918
-				width=50
+				x=988
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9962,9 +9962,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1307
-				y=918
-				width=40
+				x=1044
+				y=896
+				width=33
 				height=20
 			}
 			monitor {
@@ -9978,9 +9978,9 @@ composite {
 		}
 		"text entry" {
 			object {
-				x=1378
-				y=918
-				width=50
+				x=1099
+				y=896
+				width=41
 				height=20
 			}
 			control {
@@ -9993,9 +9993,9 @@ composite {
 		}
 		"text update" {
 			object {
-				x=1450
-				y=918
-				width=40
+				x=1157
+				y=896
+				width=33
 				height=20
 			}
 			monitor {
@@ -10009,9 +10009,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=557
-				y=918
-				width=20
+				x=445
+				y=896
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -10024,9 +10024,9 @@ composite {
 		}
 		rectangle {
 			object {
-				x=556
-				y=918
-				width=20
+				x=444
+				y=896
+				width=18
 				height=20
 			}
 			"basic attribute" {
@@ -10041,9 +10041,9 @@ composite {
 }
 text {
 	object {
-		x=17
-		y=57
-		width=100
+		x=15
+		y=55
+		width=80
 		height=20
 	}
 	"basic attribute" {
@@ -10054,9 +10054,9 @@ text {
 }
 "text update" {
 	object {
-		x=198
-		y=56
-		width=50
+		x=158
+		y=54
+		width=41
 		height=20
 	}
 	monitor {
@@ -10070,9 +10070,9 @@ text {
 }
 "text update" {
 	object {
-		x=129
-		y=56
-		width=50
+		x=103
+		y=54
+		width=41
 		height=20
 	}
 	monitor {
@@ -10085,9 +10085,9 @@ text {
 }
 "text update" {
 	object {
-		x=268
-		y=56
-		width=50
+		x=216
+		y=54
+		width=41
 		height=20
 	}
 	monitor {
@@ -10101,9 +10101,9 @@ text {
 }
 "text entry" {
 	object {
-		x=338
-		y=56
-		width=50
+		x=271
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10116,9 +10116,9 @@ text {
 }
 "text update" {
 	object {
-		x=408
-		y=56
-		width=50
+		x=326
+		y=54
+		width=41
 		height=20
 	}
 	monitor {
@@ -10132,9 +10132,9 @@ text {
 }
 "text entry" {
 	object {
-		x=681
-		y=56
-		width=50
+		x=544
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10147,9 +10147,9 @@ text {
 }
 "text entry" {
 	object {
-		x=821
-		y=56
-		width=50
+		x=657
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10162,9 +10162,9 @@ text {
 }
 "text entry" {
 	object {
-		x=961
-		y=56
-		width=50
+		x=766
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10177,9 +10177,9 @@ text {
 }
 "choice button" {
 	object {
-		x=478
-		y=56
-		width=50
+		x=381
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10191,9 +10191,9 @@ text {
 }
 "text update" {
 	object {
-		x=611
-		y=56
-		width=50
+		x=487
+		y=54
+		width=41
 		height=20
 	}
 	monitor {
@@ -10207,9 +10207,9 @@ text {
 }
 "text update" {
 	object {
-		x=751
-		y=56
-		width=50
+		x=600
+		y=54
+		width=41
 		height=20
 	}
 	monitor {
@@ -10223,9 +10223,9 @@ text {
 }
 "text update" {
 	object {
-		x=891
-		y=56
-		width=50
+		x=713
+		y=54
+		width=41
 		height=20
 	}
 	monitor {
@@ -10239,9 +10239,9 @@ text {
 }
 "text update" {
 	object {
-		x=1029
-		y=56
-		width=40
+		x=818
+		y=54
+		width=33
 		height=20
 	}
 	monitor {
@@ -10255,9 +10255,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1097
-		y=56
-		width=50
+		x=872
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10270,9 +10270,9 @@ text {
 }
 "text update" {
 	object {
-		x=1167
-		y=56
-		width=40
+		x=930
+		y=54
+		width=33
 		height=20
 	}
 	monitor {
@@ -10286,9 +10286,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1238
-		y=56
-		width=50
+		x=986
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10301,9 +10301,9 @@ text {
 }
 "text update" {
 	object {
-		x=1307
-		y=56
-		width=40
+		x=1042
+		y=54
+		width=33
 		height=20
 	}
 	monitor {
@@ -10317,9 +10317,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1378
-		y=56
-		width=50
+		x=1099
+		y=54
+		width=41
 		height=20
 	}
 	control {
@@ -10332,9 +10332,9 @@ text {
 }
 "text update" {
 	object {
-		x=1450
-		y=56
-		width=40
+		x=1157
+		y=54
+		width=33
 		height=20
 	}
 	monitor {
@@ -10348,9 +10348,9 @@ text {
 }
 rectangle {
 	object {
-		x=557
-		y=56
-		width=20
+		x=445
+		y=54
+		width=18
 		height=20
 	}
 	"basic attribute" {
@@ -10363,9 +10363,9 @@ rectangle {
 }
 rectangle {
 	object {
-		x=556
-		y=56
-		width=20
+		x=444
+		y=54
+		width=18
 		height=20
 	}
 	"basic attribute" {
@@ -10378,9 +10378,9 @@ rectangle {
 }
 text {
 	object {
-		x=17
-		y=83
-		width=100
+		x=15
+		y=80
+		width=80
 		height=20
 	}
 	"basic attribute" {
@@ -10391,9 +10391,9 @@ text {
 }
 "text update" {
 	object {
-		x=198
-		y=82
-		width=50
+		x=158
+		y=79
+		width=41
 		height=20
 	}
 	monitor {
@@ -10407,9 +10407,9 @@ text {
 }
 "text update" {
 	object {
-		x=129
-		y=82
-		width=50
+		x=103
+		y=79
+		width=41
 		height=20
 	}
 	monitor {
@@ -10422,9 +10422,9 @@ text {
 }
 "text update" {
 	object {
-		x=268
-		y=82
-		width=50
+		x=216
+		y=79
+		width=41
 		height=20
 	}
 	monitor {
@@ -10438,9 +10438,9 @@ text {
 }
 "text entry" {
 	object {
-		x=338
-		y=82
-		width=50
+		x=271
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10453,9 +10453,9 @@ text {
 }
 "text update" {
 	object {
-		x=408
-		y=82
-		width=50
+		x=326
+		y=79
+		width=41
 		height=20
 	}
 	monitor {
@@ -10469,9 +10469,9 @@ text {
 }
 "text entry" {
 	object {
-		x=681
-		y=82
-		width=50
+		x=544
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10484,9 +10484,9 @@ text {
 }
 "text entry" {
 	object {
-		x=821
-		y=82
-		width=50
+		x=657
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10499,9 +10499,9 @@ text {
 }
 "text entry" {
 	object {
-		x=961
-		y=82
-		width=50
+		x=766
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10514,9 +10514,9 @@ text {
 }
 "choice button" {
 	object {
-		x=478
-		y=82
-		width=50
+		x=381
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10528,9 +10528,9 @@ text {
 }
 "text update" {
 	object {
-		x=611
-		y=82
-		width=50
+		x=487
+		y=79
+		width=41
 		height=20
 	}
 	monitor {
@@ -10544,9 +10544,9 @@ text {
 }
 "text update" {
 	object {
-		x=751
-		y=82
-		width=50
+		x=600
+		y=79
+		width=41
 		height=20
 	}
 	monitor {
@@ -10560,9 +10560,9 @@ text {
 }
 "text update" {
 	object {
-		x=891
-		y=82
-		width=50
+		x=713
+		y=79
+		width=41
 		height=20
 	}
 	monitor {
@@ -10576,9 +10576,9 @@ text {
 }
 "text update" {
 	object {
-		x=1029
-		y=82
-		width=40
+		x=818
+		y=79
+		width=33
 		height=20
 	}
 	monitor {
@@ -10592,9 +10592,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1097
-		y=82
-		width=50
+		x=872
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10607,9 +10607,9 @@ text {
 }
 "text update" {
 	object {
-		x=1167
-		y=82
-		width=40
+		x=930
+		y=79
+		width=33
 		height=20
 	}
 	monitor {
@@ -10623,9 +10623,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1238
-		y=82
-		width=50
+		x=986
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10638,9 +10638,9 @@ text {
 }
 "text update" {
 	object {
-		x=1307
-		y=82
-		width=40
+		x=1042
+		y=79
+		width=33
 		height=20
 	}
 	monitor {
@@ -10654,9 +10654,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1378
-		y=82
-		width=50
+		x=1099
+		y=79
+		width=41
 		height=20
 	}
 	control {
@@ -10669,9 +10669,9 @@ text {
 }
 "text update" {
 	object {
-		x=1450
-		y=82
-		width=40
+		x=1157
+		y=79
+		width=33
 		height=20
 	}
 	monitor {
@@ -10685,9 +10685,9 @@ text {
 }
 rectangle {
 	object {
-		x=557
-		y=82
-		width=20
+		x=445
+		y=79
+		width=18
 		height=20
 	}
 	"basic attribute" {
@@ -10700,9 +10700,9 @@ rectangle {
 }
 rectangle {
 	object {
-		x=556
-		y=82
-		width=20
+		x=444
+		y=79
+		width=18
 		height=20
 	}
 	"basic attribute" {
@@ -10715,9 +10715,9 @@ rectangle {
 }
 text {
 	object {
-		x=17
-		y=109
-		width=100
+		x=15
+		y=107
+		width=80
 		height=20
 	}
 	"basic attribute" {
@@ -10728,9 +10728,9 @@ text {
 }
 "text update" {
 	object {
-		x=198
-		y=108
-		width=50
+		x=158
+		y=106
+		width=41
 		height=20
 	}
 	monitor {
@@ -10744,9 +10744,9 @@ text {
 }
 "text update" {
 	object {
-		x=129
-		y=108
-		width=50
+		x=103
+		y=106
+		width=41
 		height=20
 	}
 	monitor {
@@ -10759,9 +10759,9 @@ text {
 }
 "text update" {
 	object {
-		x=268
-		y=108
-		width=50
+		x=216
+		y=106
+		width=41
 		height=20
 	}
 	monitor {
@@ -10775,9 +10775,9 @@ text {
 }
 "text entry" {
 	object {
-		x=338
-		y=108
-		width=50
+		x=271
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -10790,9 +10790,9 @@ text {
 }
 "text update" {
 	object {
-		x=408
-		y=108
-		width=50
+		x=326
+		y=106
+		width=41
 		height=20
 	}
 	monitor {
@@ -10806,9 +10806,9 @@ text {
 }
 "text entry" {
 	object {
-		x=681
-		y=108
-		width=50
+		x=544
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -10821,9 +10821,9 @@ text {
 }
 "text entry" {
 	object {
-		x=821
-		y=108
-		width=50
+		x=657
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -10836,9 +10836,9 @@ text {
 }
 "text entry" {
 	object {
-		x=961
-		y=108
-		width=50
+		x=766
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -10851,9 +10851,9 @@ text {
 }
 "choice button" {
 	object {
-		x=478
-		y=108
-		width=50
+		x=381
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -10865,9 +10865,9 @@ text {
 }
 "text update" {
 	object {
-		x=611
-		y=108
-		width=50
+		x=487
+		y=106
+		width=41
 		height=20
 	}
 	monitor {
@@ -10881,9 +10881,9 @@ text {
 }
 "text update" {
 	object {
-		x=751
-		y=108
-		width=50
+		x=600
+		y=106
+		width=41
 		height=20
 	}
 	monitor {
@@ -10897,9 +10897,9 @@ text {
 }
 "text update" {
 	object {
-		x=891
-		y=108
-		width=50
+		x=713
+		y=106
+		width=41
 		height=20
 	}
 	monitor {
@@ -10913,9 +10913,9 @@ text {
 }
 "text update" {
 	object {
-		x=1029
-		y=108
-		width=40
+		x=818
+		y=106
+		width=33
 		height=20
 	}
 	monitor {
@@ -10929,9 +10929,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1097
-		y=108
-		width=50
+		x=872
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -10944,9 +10944,9 @@ text {
 }
 "text update" {
 	object {
-		x=1167
-		y=108
-		width=40
+		x=930
+		y=106
+		width=33
 		height=20
 	}
 	monitor {
@@ -10960,9 +10960,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1238
-		y=108
-		width=50
+		x=986
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -10975,9 +10975,9 @@ text {
 }
 "text update" {
 	object {
-		x=1307
-		y=108
-		width=40
+		x=1042
+		y=106
+		width=33
 		height=20
 	}
 	monitor {
@@ -10991,9 +10991,9 @@ text {
 }
 "text entry" {
 	object {
-		x=1378
-		y=108
-		width=50
+		x=1099
+		y=106
+		width=41
 		height=20
 	}
 	control {
@@ -11006,9 +11006,9 @@ text {
 }
 "text update" {
 	object {
-		x=1450
-		y=108
-		width=40
+		x=1157
+		y=106
+		width=33
 		height=20
 	}
 	monitor {
@@ -11022,9 +11022,9 @@ text {
 }
 rectangle {
 	object {
-		x=557
-		y=108
-		width=20
+		x=445
+		y=106
+		width=18
 		height=20
 	}
 	"basic attribute" {
@@ -11037,9 +11037,9 @@ rectangle {
 }
 rectangle {
 	object {
-		x=556
-		y=108
-		width=20
+		x=444
+		y=106
+		width=18
 		height=20
 	}
 	"basic attribute" {

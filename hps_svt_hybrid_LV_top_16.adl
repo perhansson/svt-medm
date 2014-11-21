@@ -97,7 +97,7 @@ text {
 	"basic attribute" {
 		clr=15
 	}
-	textix="Hybrid 0 Bot"
+	textix="Hybrid 16 top"
 	align="horiz. centered"
 }
 "choice button" {
